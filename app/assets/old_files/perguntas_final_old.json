@@ -1,0 +1,189 @@
+[
+	{
+		"Bloco 1 - Registro de Domicílio": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ1",
+				"behavior": "",
+				"title": "Teste - Equest | texto muito grande para testar a quebra de texto."
+			},
+
+			{
+				"type": "GeoLocationQuestion",
+				"id": "RD.0",
+				"title": "Qual a localização da sua residência?"
+			},
+
+			{
+				"type": "CityCheckQuestion",
+				"id": "RD.1",
+				"title": "Município do estudo",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Armação dos Búzios",
+				"Op2": "Arraial do Cabo",
+				"Op3": "Cabo Frio",
+				"Op4": "Campos dos Goytacazes",
+				"Op5": "Carapebus",
+				"Op6": "Macaé",
+				"Op7": "Quissamã",
+				"Op8": "Rio das Ostras",
+				"Op9": "São Francisco de Itabapoana",
+				"Op10": "São João da Barra"
+			},
+
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "RD.2",
+				"title": "Qual o seu nome?"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "RD.3",
+				"title": "Como o(a) Sr(a) é conhecido na comunidade? (apelido)",
+				"showDontAnswer": true
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "RD.4",
+				"title": "Endereço. Tipo de Logradouro:",
+				"Op1":"Aeroporto",
+				"Op2":"Alameda",
+				"Op3":"Área",
+				"Op4":"Avenida",
+				"Op5":"Barco",
+				"Op6":"Campo",
+				"Op7":"Chácara",
+				"Op8":"Colônia",
+				"Op9":"Condomínio",
+				"Op10":"Conjunto",
+				"Op11":"Distrito",
+				"Op12":"Esplanada",
+				"Op13":"Estação",
+				"Op14":"Estrada",
+				"Op15":"Favela",
+				"Op16":"Feira",
+				"Op17":"Jardim",
+				"Op18":"Ladeira",
+				"Op19":"Lago",
+				"Op20":"Lagoa",
+				"Op21":"Largo",
+				"Op22":"Loteamento",
+				"Op23":"Marina",
+				"Op24":"Morro",
+				"Op25":"Núcleo",
+				"Op26":"Parque",
+				"Op27":"Passarela",
+				"Op28":"Pátio",
+				"Op29":"Praça",
+				"Op30":"Quadra",
+				"Op31":"Recanto",
+				"Op32":"Residencial",
+				"Op33":"Rodovia",
+				"Op34":"Rua",
+				"Op35":"Setor",
+				"Op36":"Sítio",
+				"Op37":"Travessa",
+				"Op38":"Trecho",
+				"Op39":"Trevo",
+				"Op40":"Vale",
+				"Op41":"Vereda",
+				"Op42":"Via",
+				"Op43":"Viaduto",
+				"Op44":"Viela",
+				"Op45":"Vila",
+				"showDontKnow": true
+			}
+		]
+	},
+
+	{
+
+		"Bloco 2 - Caracterização Familiar": [
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.1",
+				"title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr(a)?",
+				"allowOnlyNumbers": true
+			},
+
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "CF.2",
+				"title": "Nome Completo:",
+				"notShowENES": true,
+				"replication": "CF.1",
+				"reference": "RD.2"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.3",
+				"title": "Qual o grau de parentesco com [ ]?",
+				"Op1": "Esposo/Esposa",
+				"Op2": "Filho/Filha/Enteado",
+				"Op3": "Genro/Nora",
+				"Op4": "Pai/Mãe/Padrasto/Madrasta",
+				"Op5": "Sogro/a",
+				"Op6": "Neto/a",
+				"Op7": "Bisneto/a",
+				"Op8": "Irmão/Irmã",
+				"Op9": "Avô/Avó",
+				"Op10": "Outro tipo de parente",
+				"Op11": "Agregado",
+				"Op12": "É a mesma pessoa",
+				"replication": "CF.1",
+				"showDontKnow": true
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.4",
+				"title": "Qual o sexo de [ ]?",
+				"Op1": "Masculino",
+				"Op2": "Feminino",
+				"replication": "CF.1",
+				"showENES": true
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.5",
+				"title": "Qual a idade (em anos completos) de [ ]?",
+				"allowOnlyNumbers": true,
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "CF.35",
+				"title": "[ ]: de quais programas sociais de transferência de renda o(a) Sr(a) recebe rendimentos?",
+				"behavior": "Bolsa família",
+				"Op1": "Brasil Carinhoso",
+				"Op2": "PETI",
+				"Op3": "BPC",
+				"Op4": "Renda Melhor",
+				"Op5": "Renda Melhor Jovem",
+				"Op6": "Renda mínima",
+				"Op7": "Cheque alimentação",
+				"Op8": "Vale Cidadão",
+				"Op9": "Guarda Mirim",
+				"Op10": "Cartão social da dignidade (100 reais)",
+				"Op11": "Cartão Cidadão - SJB",
+				"Op12": "Aluguel Social",
+				"Op13": "Loas",
+				"Op14": "Bolsa Escola",
+				"Op15": "Bolsa Verde",
+				"Op16": "Cesta Básica",
+				"Op17": "Cheque Cidadão",
+				"Op18": "FIES",
+				"Op19": "Outro programa social de transferência de renda não relacionado.",
+				"replication": "CF.1"
+			}
+		]
+	}
+]
+

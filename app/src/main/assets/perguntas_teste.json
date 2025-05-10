@@ -1,0 +1,394 @@
+[
+	{
+		"Bloco 1": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "1.1",
+				"title": "Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "1.5",
+				"title": "Pergunta do tipo marque somente uma opção:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "1.6",
+				"title": "Pergunta do tipo marque somente uma opção com opções NS NR NA:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "1.7",
+				"title": "Pergunta do tipo marque uma ou mais opções:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "1.8",
+				"title": "Pergunta do tipo marque uma ou mais opções com opções NS NR NA:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "1.9",
+				"title": "Pergunta do tipo marque somente uma opção com menu dropdown:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20"
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "1.10",
+				"title": "Pergunta do tipo marque somente uma opção com menu dropdown com opções NS NR NA:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "1.11",
+				"title": "Pergunta do tipo texto com limitação de caracteres somente números (6 caracteres)",
+				"allowOnlyNumbers": true,
+				"size": 6
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "1.12",
+				"title": "Pergunta do tipo texto",
+				"behavior": "Preenchido pelo entrevistador"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "1.13",
+				"title": "Pergunta do tipo texto com limitação de caracteres e opções NS NR NA (4 caracteres)",
+				"size": 4,
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "1.14",
+				"title": "Pergunta do tipo texto com opções NS NR NA",
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			}
+		]
+	},
+
+	{
+		"Bloco 2": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "2.1",
+				"title": "Bloco teste de replicação"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "2.2",
+				"title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr(a)?",
+				"allowOnlyNumbers": true
+			},
+
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "2.3",
+				"title": "Nome Completo:",
+				"notShowENES": true,
+				"replication": "2.2",
+				"reference": "1.3"
+			},
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "2.4",
+				"title": "Replicação de NotAnswerableQuestion",
+				"replication": "2.2"
+			},
+
+			{
+				"type": "GeoLocationQuestion",
+				"id": "2.5",
+				"title": "Replicação de GeoLocationQuestion",
+				"replication": "2.2"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "2.6",
+				"title": "Replicação de OnlyOneChoiceQuestion",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"replication": "2.2"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "2.7",
+				"title": "Replicação de MultipleChoiceQuestion",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"replication": "2.2"
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "2.8",
+				"title": "Pergunta do tipo marque somente uma opção com menu dropdown:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"replication": "2.2"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "2.9",
+				"title": "Pergunta do tipo texto com limitação de caracteres somente números (5 caracteres)",
+				"allowOnlyNumbers": true,
+				"size": 5,
+				"replication": "2.2"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "2.10",
+				"title": "Pergunta do tipo texto",
+				"behavior": "Preenchido pelo entrevistador",
+				"replication": "2.2"
+			}
+		]
+	},
+
+	{
+		"Bloco 3": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "3.1",
+				"title": "Bloco teste de dependências - Em construção"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "3.2",
+				"title": "Questão 1",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Para responder a próxima questão marque aqui"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "3.3",
+				"title": "Questão 2",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"dependencies": [
+					{
+						"dependencyID": "3.2",
+						"dependencyValue": "Para responder a próxima questão marque aqui"
+					}
+				]
+			}
+		]
+	}
+]

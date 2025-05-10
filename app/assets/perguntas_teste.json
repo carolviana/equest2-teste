@@ -1,0 +1,176 @@
+[
+	{
+		"Bloco 1 - Registro de Domicílio": [
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ1",
+				"title": "Teste Equest - 19/07/2021"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "P.1",
+				"title": "Município onde está sendo realizada a entrevista:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Armação dos Búzios",
+				"Op2": "Arraial do Cabo",
+				"Op3": "Cabo Frio",
+				"Op4": "Campos dos Goytacazes",
+				"Op5": "Carapebus",
+				"Op6": "Macaé",
+				"Op7": "Quissamã",
+				"Op8": "Rio das Ostras",
+				"Op9": "São Francisco de Itabapoana",
+				"Op10": "São João da Barra"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "P.2",
+				"title": "Município onde está sendo realizada a entrevista:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "2Armação dos Búzios",
+				"Op2": "2Arraial do Cabo",
+				"Op3": "2Cabo Frio",
+				"Op4": "2Campos dos Goytacazes",
+				"Op5": "2Carapebus",
+				"Op6": "2Macaé",
+				"Op7": "2Quissamã",
+				"Op8": "2Rio das Ostras",
+				"Op9": "2São Francisco de Itabapoana",
+				"Op10": "2São João da Barra"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "Teste 1",
+				"title": "Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste!",
+				"allowOnlyNumbers": true,
+				"size": 6
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "Teste 2",
+				"title": "Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste!"
+			},
+
+			{
+				"type": "CityCheckQuestion",
+				"id": "RD.1",
+				"title": "Município onde está sendo realizada a entrevista:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Armação dos Búzios",
+				"Op2": "Arraial do Cabo",
+				"Op3": "Cabo Frio",
+				"Op4": "Campos dos Goytacazes",
+				"Op5": "Carapebus",
+				"Op6": "Macaé",
+				"Op7": "Quissamã",
+				"Op8": "Rio das Ostras",
+				"Op9": "São Francisco de Itabapoana",
+				"Op10": "São João da Barra"
+			},
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "RD.2",
+				"title": "Qual o seu nome?"
+			}
+		]
+	},
+	{
+		"Bloco 2 - Caracterização Familiar": [
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ3",
+				"title": "Bloco 2 - Caracterização Familiar"
+			},
+			{
+				"type": "EditQuestion",
+				"id": "CF.1",
+				"title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr(a)?",
+				"allowOnlyNumbers": true
+			},
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "CF.2",
+				"title": "Nome Completo:",
+				"notShowENES": true,
+				"replication": "CF.1",
+				"reference": "RD.2"
+			},
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ2",
+				"title": "Teste Equest - 19/07/2021",
+				"replication": "CF.1"
+			},
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "CF.3",
+				"title": "Qual o grau de parentesco do Sr(a) com o morador do domicílio?",
+				"Op1": "Meu(minha) marido/esposa",
+				"Op2": "Meu(minha) filho(a)/enteado(a)",
+				"Op3": "Meu(minha) genro/nora",
+				"Op4": "Meu(minha) pai/mãe/padrasto/madrasta",
+				"Op5": "Meu(minha) sogro(a)",
+				"Op6": "Meu(minha) neto(a)",
+				"Op7": "Meu(minha) bisneto/a",
+				"Op8": "Meu(minha) Irmão(ã)",
+				"Op9": "Meu(minha) avô(ó)",
+				"Op10": "Meu(minha) primo(a)",
+				"Op11": "Meu(minha) sobrinho(a)",
+				"Op12": "Meu(minha) cunhado(a)",
+				"Op13": "Meu(minha) tio(a)",
+				"Op14": "Outro tipo de parente",
+				"Op15": "Agregado(a)",
+				"Op16": "É a mesma pessoa",
+				"replication": "CF.1"
+			},
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.4",
+				"title": "Qual o sexo de ?",
+				"Op1": "Masculino",
+				"Op2": "Feminino",
+				"replication": "CF.1"
+			},
+			{
+				"type": "EditQuestion",
+				"id": "CF.5",
+				"title": "Qual a idade (em anos completos) de ?",
+				"allowOnlyNumbers": true,
+				"replication": "CF.1"
+			},
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.6",
+				"title": "Qual é a cor de ?",
+				"Op1": "Branca",
+				"Op2": "Preta",
+				"Op3": "Parda",
+				"Op4": "Amarela",
+				"Op5": "Indígena",
+				"replication": "CF.1"
+			},
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "CF.35",
+				"title": "Em relação aos programas de transferência de renda, de qual deles é beneficiário?",
+				"Op1": "Bolsa família",
+				"Op2": "Brasil Carinhoso",
+				"Op3": "PETI",
+				"Op4": "BPC",
+				"Op5": "Renda Melhor",
+				"Op6": "Renda Melhor Jovem",
+				"Op7": "Renda mínima",
+				"Op8": "Cheque alimentação",
+				"Op9": "Vale Cidadão",
+				"Op10": "Guarda Mirim",
+				"Op11": "Cartão social da dignidade (100 reais)",
+				"Op12": "Cartão Cidadão - SJB",
+				"replication": "CF.1"
+			}
+		]
+	}
+]

@@ -1,0 +1,2721 @@
+[
+   {
+	   "Bloco 1 - Registro de Domicílio": [
+		   {
+			   "type": "NotAnswerableQuestion",
+			   "id": "NAQ1",
+			   "title": "Teste Equest - 10/08/2021"
+		   },
+
+		   {
+			   "type": "NotAnswerableQuestion",
+			   "id": "NAQ2",
+			   "title": "Bloco 1 - Registro de Domicílio"
+		   },
+
+		   {
+			   "type": "CityCheckQuestion",
+			   "id": "RD.1",
+			   "title": "Município onde está sendo realizada a entrevista:",
+			   "behavior": "Preenchido pelo entrevistador",
+			   "Op1": "Armação dos Búzios",
+			   "Op2": "Arraial do Cabo",
+			   "Op3": "Cabo Frio",
+			   "Op4": "Campos dos Goytacazes",
+			   "Op5": "Carapebus",
+			   "Op6": "Macaé",
+			   "Op7": "Quissamã",
+			   "Op8": "Rio das Ostras",
+			   "Op9": "São Francisco de Itabapoana",
+			   "Op10": "São João da Barra"
+		   },
+
+		   {
+			   "type": "PersonCreatorQuestion",
+			   "id": "RD.2",
+			   "title": "Qual o seu nome?"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.3",
+			   "title": "Como o(a) Sr(a) é conhecido na comunidade? (apelido)"
+		   },
+
+		   {
+			   "type": "GeoLocationQuestion",
+			   "id": "RD.0",
+			   "title": "Qual a localização da sua residência?"
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.4",
+			   "title": "Endereço. Tipo de Logradouro:",
+			   "Op1":"Aeroporto",
+			   "Op2":"Alameda",
+			   "Op3":"Área",
+			   "Op4":"Avenida",
+			   "Op5":"Barco",
+			   "Op6":"Campo",
+			   "Op7":"Chácara",
+			   "Op8":"Colônia",
+			   "Op9":"Condomínio",
+			   "Op10":"Conjunto",
+			   "Op11":"Distrito",
+			   "Op12":"Esplanada",
+			   "Op13":"Estação",
+			   "Op14":"Estrada",
+			   "Op15":"Favela",
+			   "Op16":"Feira",
+			   "Op17":"Jardim",
+			   "Op18":"Ladeira",
+			   "Op19":"Lago",
+			   "Op20":"Lagoa",
+			   "Op21":"Largo",
+			   "Op22":"Loteamento",
+			   "Op23":"Marina",
+			   "Op24":"Morro",
+			   "Op25":"Núcleo",
+			   "Op26":"Parque",
+			   "Op27": "Passarela",
+			   "Op28": "Pátio",
+			   "Op29": "Praça",
+			   "Op30": "Quadra",
+			   "Op31": "Recanto",
+			   "Op32": "Residencial",
+			   "Op33": "Rodovia",
+			   "Op34": "Rua",
+			   "Op35": "Setor",
+			   "Op36": "Sítio",
+			   "Op37": "Travessa",
+			   "Op38": "Trecho",
+			   "Op39": "Trevo",
+			   "Op40": "Vale",
+			   "Op41": "Vereda",
+			   "Op42": "Via",
+			   "Op43": "Viaduto",
+			   "Op44": "Viela",
+			   "Op45": "Vila"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.5",
+			   "title": "Endereço - Nome do Logradouro:"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.6",
+			   "title": "Endereço - Número do Logradouro:",
+			   "allowOnlyNumbers": true
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.7",
+			   "title": "Endereço - Complemento (ou referência):"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.8",
+			   "title": "Número de telefone (ddd+número do telefone):",
+			   "allowOnlyNumbers": true
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.9",
+			   "title": "Município de Residência:",
+			   "Op1": "Armação dos Búzios",
+			   "Op2": "Arraial do Cabo",
+			   "Op3": "Cabo Frio",
+			   "Op4": "Campos dos Goytacazes",
+			   "Op5": "Carapebus",
+			   "Op6": "Macaé",
+			   "Op7": "Quissamã",
+			   "Op8": "Rio das Ostras",
+			   "Op9": "São Francisco de Itabapoana",
+			   "Op10": "São João da Barra",
+			   "Op11": "Outro município não listado"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.9.1",
+			   "title": "Em que outro município não listado o(a) Sr(a) reside?",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Outro município não listado"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.10",
+			   "title": "Em que Estado o(a) Sr(a) reside?",
+			   "Op1": "Alagoas",
+			   "Op2": "Amapá",
+			   "Op3": "Amazonas",
+			   "Op4": "Bahia",
+			   "Op5": "Ceará",
+			   "Op6": "Distrito Federal",
+			   "Op7": "Espírito Santo",
+			   "Op8": "Goiás",
+			   "Op9": "Maranhão",
+			   "Op10": "Mato Grosso",
+			   "Op11": "Mato Grosso do Sul",
+			   "Op12": "Minas Gerais",
+			   "Op13": "Pará",
+			   "Op14": "Paraíba",
+			   "Op15": "Paraná",
+			   "Op16": "Pernambuco",
+			   "Op17": "Piauí",
+			   "Op18": "Rio de Janeiro",
+			   "Op19": "Rio Grande do Norte",
+			   "Op20": "Roraima",
+			   "Op21": "Santa Catarina",
+			   "Op22": "São Paulo",
+			   "Op23": "Tocantins",
+			   "Op24": "Acre",
+			   "Op25": "Sergipe,",
+			   "Op26": "Rio Grande do Sul",
+			   "Op27": "Rondônia"
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.1",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Armação dos Búzios:",
+			   "Op1": "Alto Búzios",
+			   "Op2": "Alto da Rasa",
+			   "Op3": "Baía Branca",
+			   "Op4": "Baía Formosa",
+			   "Op5": "Bosque de Geribá",
+			   "Op6": "Campo de Pouso",
+			   "Op7": "Canto Esquerdo de Geribá",
+			   "Op8": "Caravelas",
+			   "Op9": "Casa Sereia",
+			   "Op10": "Cem Braças",
+			   "Op11": "Centro (Búzios)",
+			   "Op12": "Colinas de Geribá",
+			   "Op13": "Emerencias",
+			   "Op14": "Fazenda Ferradura",
+			   "Op15": "Ferradura",
+			   "Op16": "Ferradurinha",
+			   "Op17": "Geribá",
+			   "Op18": "Humaitá",
+			   "Op19": "Jardim Esperança",
+			   "Op20": "João Fernandes",
+			   "Op21": "José Gonçalves",
+			   "Op22": "Loteamento Portal da Ferradura",
+			   "Op23": "Loteamento Sítio do Campinho",
+			   "Op24": "Loteamento Triângulo de Búzios",
+			   "Op25": "Manguinhos,",
+			   "Op26": "Maria Joaquina",
+			   "Op27": "Marina",
+			   "Op28": "Marisco",
+			   "Op29": "Morro Humait",
+			   "Op30": "Nova Búzios",
+			   "Op31": "Parque das Acácias",
+			   "Op32": "Portal da Ferradura",
+			   "Op33": "Praça dos Ossos",
+			   "Op34": "Praia Brava",
+			   "Op35": "Praia da Ferradura",
+			   "Op36": "Praia da Tartaruga",
+			   "Op37": "Praia das Caravelas",
+			   "Op38": "Praia de Tucuns",
+			   "Op39": "Praia do Canto",
+			   "Op40": "Praia do Forno",
+			   "Op41": "Praia dos Ossos",
+			   "Op42": "Praia João Fernandes",
+			   "Op43": "Praia Rasa",
+			   "Op44": "Vila Caranga",
+			   "Op45": "Villa Verde",
+			   "Op46": "Village de Búzios",
+			   "Op47": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Armação dos Búzios"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.2",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Arraial do Cabo:",
+			   "Op1": "Álcalis",
+			   "Op2": "Baleia",
+			   "Op3": "Caiçara",
+			   "Op4": "Canaã",
+			   "Op5": "Centro (Arraial)",
+			   "Op6": "Figueira",
+			   "Op7": "Foguete",
+			   "Op8": "Macedônia",
+			   "Op9": "Monte Alto",
+			   "Op10": "Morro da Boa Vista",
+			   "Op11": "Morro da Cabocla",
+			   "Op12": "Novo Arraial",
+			   "Op13": "Parque das Gaivotas",
+			   "Op14": "Parque das Garças",
+			   "Op15": "Pernambuca",
+			   "Op16": "Pontal do Atalaia",
+			   "Op17": "Praia do Pontal",
+			   "Op18": "Praia dos Anjos",
+			   "Op19": "Praia Grande",
+			   "Op20": "Prainha",
+			   "Op21": "Roça Velha",
+			   "Op22": "Sabiá",
+			   "Op23": "Sítio (Arraial)",
+			   "Op24": "Taió",
+			   "Op25": "Vila Canaã,",
+			   "Op26": "Vila Industrial",
+			   "Op27": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Arraial do Cabo"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.3",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Cabo Frio:",
+			   "Op1": "Alecrim",
+			   "Op2": "Algodoal",
+			   "Op3": "Aquarius",
+			   "Op4": "Baixo Grande (SPA)",
+			   "Op5": "Balneário Dunas",
+			   "Op6": "Boca do mato",
+			   "Op7": "Braga",
+			   "Op8": "Cajueiro",
+			   "Op9": "Caminho Búzios",
+			   "Op10": "Caminho de Búzios",
+			   "Op11": "Campo redondo (SPA)",
+			   "Op12": "Canto do Forte",
+			   "Op13": "Célula Mater",
+			   "Op14": "Centro (Cabo Frio)",
+			   "Op15": "Chavão",
+			   "Op16": "Colinas (SPA)",
+			   "Op17": "Eldorado 3",
+			   "Op18": "Fazendinha",
+			   "Op19": "Fluminense (SPA)",
+			   "Op20": "Gamboa",
+			   "Op21": "Guarani",
+			   "Op22": "Guriri",
+			   "Op23": "Ilha Draga",
+			   "Op24": "Itajurú",
+			   "Op25": "Jacaré,",
+			   "Op26": "Jardim Caiçara",
+			   "Op27": "Jardim Esperança",
+			   "Op28": "Jardim Excelsior",
+			   "Op29": "Jardim Flamboyant",
+			   "Op30": "Jardim Machado",
+			   "Op31": "Jardim Náutilus",
+			   "Op32": "Jardim Olinda",
+			   "Op33": "Jardim Olinda II",
+			   "Op34": "Jardim Peró",
+			   "Op35": "Jardim São Francisco",
+			   "Op36": "José Gonçalves (Búzios)",
+			   "Op37": "Manoel Corrêa",
+			   "Op38": "Maria Joaquina",
+			   "Op39": "Miguel Couto",
+			   "Op40": "Monte Alegre",
+			   "Op41": "Ogiva",
+			   "Op42": "Palmeiras",
+			   "Op43": "Parque Brisas",
+			   "Op44": "Parque Burle",
+			   "Op45": "Parque Central",
+			   "Op46": "Parque Eldorado II",
+			   "Op47": "Parque Estoril (SPA)",
+			   "Op48": "Parque Riviera",
+			   "Op49": "Passagem",
+			   "Op50": "Peró",
+			   "Op51": "Perynas",
+			   "Op52": "Pintor Costa",
+			   "Op53": "Ponta do Ambrósio",
+			   "Op54": "Portinho",
+			   "Op55": "Porto da Aldeia (SPA)",
+			   "Op56": "Porto do Carro",
+			   "Op57": "Praia brava (Búzios)",
+			   "Op58": "Praia do Foguete",
+			   "Op59": "Praia do Forte",
+			   "Op60": "Praia do Siqueira",
+			   "Op61": "Praia Rasa",
+			   "Op62": "Recanto das Dunas",
+			   "Op63": "Recanto das Orquídeas (SPA)",
+			   "Op64": "Reserva do Peró",
+			   "Op65": "Samburá",
+			   "Op66": "Santo Antônio",
+			   "Op67": "São Bento",
+			   "Op68": "São Cristóvão",
+			   "Op69": "São Francisco",
+			   "Op70": "São Jacinto",
+			   "Op71": "São João (SPA)",
+			   "Op72": "Tamoios",
+			   "Op73": "Tangará",
+			   "Op74": "Unamar",
+			   "Op75": "Vila Blanche",
+			   "Op76": "Vila do Ar",
+			   "Op77": "Vila do Sol",
+			   "Op78": "Vila Nova (Casimiro de Abreu)",
+			   "Op79": "Vinhateiro (SPA)",
+			   "Op80": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Cabo Frio"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.4",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Campos dos Goytacazes:",
+			   "Op1": "Assentamento Zumbi dos Palmares (Lagoa do Campelo)",
+			   "Op2": "Baixa Grande",
+			   "Op3": "Boa Vista (Farol de São Tomé)",
+			   "Op4": "Campo Novo",
+			   "Op5": "Canal das Flechas",
+			   "Op6": "Canto do Rio (Tocos)",
+			   "Op7": "Centro (Campos dos Goytacazes)",
+			   "Op8": "Centro (Farol De São Tomé)",
+			   "Op9": "Codin",
+			   "Op10": "Conceição do Imbé (Lagoa de Cima)",
+			   "Op11": "Coroa Grande",
+			   "Op12": "Correnteza",
+			   "Op13": "Custodópolis",
+			   "Op14": "Donana",
+			   "Op15": "Dores de Macabu",
+			   "Op16": "Estrada do Carvão",
+			   "Op17": "Gaivotas (farol de São tomé)",
+			   "Op18": "Goytacazes",
+			   "Op19": "IPS",
+			   "Op20": "Iterere",
+			   "Op21": "Jardim Acácias",
+			   "Op22": "Jardim Americano",
+			   "Op23": "Jardim Carioca (Guarus)",
+			   "Op24": "Jardim Flamboyant",
+			   "Op25": "Jardim Flamboyant II",
+			   "Op26": "Jardim Lagoa das Pedras",
+			   "Op27": "Jardim Palmeiras",
+			   "Op28": "Lagamar (Farol de São Tomé)",
+			   "Op29": "Lagoa de Cima",
+			   "Op30": "Lapa",
+			   "Op31": "Marcelo (Tocos)",
+			   "Op32": "Marrecas (baixa Grande)",
+			   "Op33": "Martins Lage",
+			   "Op34": "Matadouro",
+			   "Op35": "Morro do Côco",
+			   "Op36": "Mundeus (Lagoa do Campelo)",
+			   "Op37": "Mussurepe",
+			   "Op38": "Parque Aeroporto",
+			   "Op39": "Parque Aldeia",
+			   "Op40": "Parque Alphaville",
+			   "Op41": "Parque Alvorada",
+			   "Op42": "Parque Angélica",
+			   "Op43": "Parque Aurora",
+			   "Op44": "Parque Avenida",
+			   "Op45": "Parque Bandeirantes",
+			   "Op46": "Parque Barão do Rio Branco",
+			   "Op47": "Parque Bela Vista",
+			   "Op48": "Parque Benta Pereira",
+			   "Op49": "Parque Boa Vista",
+			   "Op50": "Parque Bosque Acácias",
+			   "Op51": "Parque Brasília",
+			   "Op52": "Parque Caju",
+			   "Op53": "Parque Calabouço",
+			   "Op54": "Parque Califórnia",
+			   "Op55": "Parque Ceasa",
+			   "Op56": "Parque Céu Azul",
+			   "Op57": "Parque Cidade Luz",
+			   "Op58": "Parque Corrientes",
+			   "Op59": "Parque Dom Bosco",
+			   "Op60": "Parque Eldorado",
+			   "Op61": "Parque Esplanada",
+			   "Op62": "Parque Fazenda Grande",
+			   "Op63": "Parque Fazendinha",
+			   "Op64": "Parque Flamboyant",
+			   "Op65": "Parque Fundão",
+			   "Op66": "Parque Guarus",
+			   "Op67": "Parque Imperial",
+			   "Op68": "Parque Ipiranga",
+			   "Op69": "Parque Jardim Carioca",
+			   "Op70": "Parque João Maria",
+			   "Op71": "Parque Jóquei Club",
+			   "Op72": "Parque José Patrocínio",
+			   "Op73": "Parque Julião Nogueira",
+			   "Op74": "Parque Julião Nogueira",
+			   "Op75": "Parque Lebret",
+			   "Op76": "Parque Leopoldina",
+			   "Op77": "Parque Maciel",
+			   "Op78": "Parque Nova Brasília",
+			   "Op79": "Parque Nova Campos",
+			   "Op80": "Parque Novo Jockey",
+			   "Op81": "Parque Novo Mundo",
+			   "Op82": "Parque Pecuária",
+			   "Op83": "Parque Penha",
+			   "Op84": "Parque Pomares",
+			   "Op85": "Parque Prazeres",
+			   "Op86": "Parque Presidente Vargas",
+			   "Op87": "Parque Riachuelo",
+			   "Op88": "Parque Rodoviário",
+			   "Op89": "Parque Rosário",
+			   "Op90": "Parque Salo Brand",
+			   "Op91": "Parque Santa Clara",
+			   "Op92": "Parque Santa Helena",
+			   "Op93": "Parque Santa Maria",
+			   "Op94": "Parque Santa Rosa",
+			   "Op95": "Parque Santo Amaro",
+			   "Op96": "Parque Santo Antônio",
+			   "Op97": "Parque Santos Dumont",
+			   "Op98": "Parque São Benedito",
+			   "Op99": "Parque São Caetano",
+			   "Op100": "Parque São Domingos",
+			   "Op101": "Parque São Jorge",
+			   "Op102": "Parque São José",
+			   "Op103": "Parque São Mateus",
+			   "Op104": "Parque São Silvestre",
+			   "Op105": "Parque Sumaré",
+			   "Op106": "Parque Tamandaré",
+			   "Op107": "Parque Tarcísio Miranda",
+			   "Op108": "Parque Tomaz Coelho",
+			   "Op109": "Parque Tropical",
+			   "Op110": "Parque Turf Club",
+			   "Op111": "Parque Varanda do Visconde",
+			   "Op112": "Parque Varanda Visconde",
+			   "Op113": "Parque Vera Cruz",
+			   "Op114": "Parque Vicente Dias",
+			   "Op115": "Parque Vicente G Dias",
+			   "Op116": "Parque Vicente Gonçalves Dias",
+			   "Op117": "Parque Vila Amaral",
+			   "Op118": "Parque Visconde de Ururaí",
+			   "Op119": "Parque Zuza Mota",
+			   "Op120": "Pecuária",
+			   "Op121": "Pelinca",
+			   "Op122": "Penha",
+			   "Op123": "Pernambuca",
+			   "Op124": "Poço Gordo",
+			   "Op125": "Ponta Grossa Dos Fidalgos",
+			   "Op126": "Rádio Velho (Farol de São Tomé)",
+			   "Op127": "Residencial Lapa II",
+			   "Op128": "Residencial Santo Antônio",
+			   "Op129": "Retiro",
+			   "Op130": "Santa Cruz",
+			   "Op131": "Sant'Ana (Lagoa do Campelo)",
+			   "Op132": "Santo Eduardo",
+			   "Op133": "Sapucaia",
+			   "Op134": "Tapera",
+			   "Op135": "Terminal Pesqueiro",
+			   "Op136": "Tocos",
+			   "Op137": "Travessão",
+			   "Op138": "Ururaí",
+			   "Op139": "Vila da Rainha",
+			   "Op140": "Vila do Sol (Farol de São tomé)",
+			   "Op141": "Vila dos Pescadores (Farol de São tomé)",
+			   "Op142": "Vila Industrial",
+			   "Op143": "Vila Manhães",
+			   "Op144": "Xexé (Farol de São tomé)",
+			   "Op145": "Zona Rural",
+			   "Op146": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Campos dos Goytacazes"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.5",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Carapebus:",
+			   "Op1": "Baixada",
+			   "Op2": "Barreiros",
+			   "Op3": "Botafogo",
+			   "Op4": "Capelinha do Amparo",
+			   "Op5": "Caxangá",
+			   "Op6": "Centro (Carapebus)",
+			   "Op7": "Chave do Ribeiro",
+			   "Op8": "Córrego Grande",
+			   "Op9": "Lameiros",
+			   "Op10": "Nova Canaã",
+			   "Op11": "Oscar Brito",
+			   "Op12": "Praça Cordeiro",
+			   "Op13": "Praia Carapebus",
+			   "Op14": "Rancho Rio Norte",
+			   "Op15": "Rodagem",
+			   "Op16": "Sapecado",
+			   "Op17": "Ubas",
+			   "Op18": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Carapebus"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.6",
+			   "title": "Em que localidade/bairro o Sr(a) reside? - Macaé:",
+			   "Op1": "Aeroporto",
+			   "Op2": "Ajuda Cima",
+			   "Op3": "Ajuda de Baixo",
+			   "Op4": "Alto Cajueiros",
+			   "Op5": "Aroeiras",
+			   "Op6": "Barra de Macaé",
+			   "Op7": "Barreto",
+			   "Op8": "Bela Vista",
+			   "Op9": "Botafogo",
+			   "Op10": "Brasília",
+			   "Op11": "Cabiúnas",
+			   "Op12": "Cajueiros",
+			   "Op13": "Campo do Oeste",
+			   "Op14": "Cancela Preta",
+			   "Op15": "Cavaleiros",
+			   "Op16": "Centro (Macaé)",
+			   "Op17": "Costa do Sol",
+			   "Op18": "Engenho da Praia",
+			   "Op19": "Estância Glicério",
+			   "Op20": "Fronteira",
+			   "Op21": "Glória",
+			   "Op22": "Granja dos Cavaleiros",
+			   "Op23": "Horto",
+			   "Op24": "Ilha Tacaeir",
+			   "Op25": "Imbetiba,",
+			   "Op26": "Imboassica",
+			   "Op27": "Imburo",
+			   "Op28": "Jardim Aeroporto",
+			   "Op29": "Jardim Carioca",
+			   "Op30": "Jardim Esperança",
+			   "Op31": "Jardim Franco",
+			   "Op32": "Jardim Guanabara",
+			   "Op33": "Jardim Maringá",
+			   "Op34": "Jardim Pinheiro",
+			   "Op35": "Jardim Santo Antônio",
+			   "Op36": "Jardim Sol Mar",
+			   "Op37": "Jardim Vitória",
+			   "Op38": "Lagoa",
+			   "Op39": "Lagomar",
+			   "Op40": "Malvinas",
+			   "Op41": "Maringá",
+			   "Op42": "Mato Escuro",
+			   "Op43": "Miramar",
+			   "Op44": "Mirante Lagoa",
+			   "Op45": "Morada Garças",
+			   "Op46": "Morro do Viaduto",
+			   "Op47": "Morro Santana",
+			   "Op48": "Morro São Jorge",
+			   "Op49": "Nossa Senhora Ajuda",
+			   "Op50": "Nossa Senhora Glória",
+			   "Op51": "Nova Aroeiras",
+			   "Op52": "Nova Cidade",
+			   "Op53": "Nova Esperança",
+			   "Op54": "Nova Holanda",
+			   "Op55": "Nova Macaé",
+			   "Op56": "Novo Botafogo",
+			   "Op57": "Novo Cavaleiros",
+			   "Op58": "Novo Visconde",
+			   "Op59": "Paraíso",
+			   "Op60": "Parque Aeroporto",
+			   "Op61": "Parque Atlântico",
+			   "Op62": "Parque Duque de Caxias",
+			   "Op63": "Parque Vila Miranda",
+			   "Op64": "Praia Campista",
+			   "Op65": "Praia do Pecado",
+			   "Op66": "Praia do Sossego",
+			   "Op67": "Praia dos Cavaleiros",
+			   "Op68": "Riviera Fluminense",
+			   "Op69": "São José Barreto",
+			   "Op70": "Sol e Mar",
+			   "Op71": "Vale Encantado",
+			   "Op72": "Verdes Mares",
+			   "Op73": "Virgem Santa",
+			   "Op74": "Visconde de Araújo",
+			   "Op75": "Vivenda Flores",
+			   "Op76": "Vivenda Lagoa",
+			   "Op77": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Macaé"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.7",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Quissamã:",
+			   "Op1": "Alto Alegre",
+			   "Op2": "Bacurau",
+			   "Op3": "Barra da Lagoa",
+			   "Op4": "Barra do Furado",
+			   "Op5": "Beira da Lagoa",
+			   "Op6": "Canto da Saudade",
+			   "Op7": "Canto de Santo Antônio",
+			   "Op8": "Carmo",
+			   "Op9": "Caxias",
+			   "Op10": "Centro (Quissamã)",
+			   "Op11": "Complexo Luís Lemos",
+			   "Op12": "Condomínio Araruama",
+			   "Op13": "Engenho",
+			   "Op14": "Estrada do Machado",
+			   "Op15": "Goiabal",
+			   "Op16": "Loteamento Sítio Quissamã",
+			   "Op17": "Mantiqueira",
+			   "Op18": "Matias",
+			   "Op19": "Mato de Pipa",
+			   "Op20": "Morrinhos",
+			   "Op21": "Palmeirinhas",
+			   "Op22": "Patos",
+			   "Op23": "Penha",
+			   "Op24": "Pitanga Farinha Seca",
+			   "Op25": "Piteiras,",
+			   "Op26": "Praia de São Francisco",
+			   "Op27": "Ribeira",
+			   "Op28": "Rural",
+			   "Op29": "Santa Catarina",
+			   "Op30": "São José",
+			   "Op31": "São Miguel",
+			   "Op32": "Sítio (Quissamã)",
+			   "Op33": "Sítio Boa Vista",
+			   "Op34": "Sítio Quissamã Aterro Farinha Seca",
+			   "Op35": "Visgueiro",
+			   "Op36": "Vista Alegre",
+			   "Op37": "Vivendas do Canal",
+			   "Op38": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Quissamã"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.8",
+			   "title": "Em que localidade/bairro o Sr(a) reside? Rio das Ostras:",
+			   "Op1": " ncora",
+			   "Op2": "Atlântica",
+			   "Op3": "Balneário das Garças",
+			   "Op4": "Balneário Remanso",
+			   "Op5": "Beira Rio",
+			   "Op6": "Bela Vista",
+			   "Op7": "Boca da Barra",
+			   "Op8": "Bosque da Praia",
+			   "Op9": "Bosque Rios das Ostras",
+			   "Op10": "Campo Mar",
+			   "Op11": "Cantagalo",
+			   "Op12": "Cantinho do Mar",
+			   "Op13": "Casa Grande",
+			   "Op14": "Centro (Rio das Ostras)",
+			   "Op15": "Centro (Barra São João)",
+			   "Op16": "Chácara Mariléa",
+			   "Op17": "Cidade Beira Mar",
+			   "Op18": "Cidade Praiana",
+			   "Op19": "Colinas",
+			   "Op20": "Condomínio Porto Seguro",
+			   "Op21": "Costa Azul",
+			   "Op22": "Enseada das Gaivotas",
+			   "Op23": "Extensão do Bosque",
+			   "Op24": "Extensão Serramar",
+			   "Op25": "Gelson Apicelo",
+			   "Op26": "Jardim Bela Vista",
+			   "Op27": "Jardim Campomar",
+			   "Op28": "Jardim Mariléa",
+			   "Op29": "Jardim Miramar",
+			   "Op30": "Leda",
+			   "Op31": "Liberdade",
+			   "Op32": "Loteamento Extensão do Serramar",
+			   "Op33": "Mar do Norte",
+			   "Op34": "Maria Turri",
+			   "Op35": "Nova Aliança",
+			   "Op36": "Nova Cidade",
+			   "Op37": "Nova Esperança",
+			   "Op38": "Novo Rio das Ostras",
+			   "Op39": "Operário",
+			   "Op40": "Ouro Verde",
+			   "Op41": "Palmital",
+			   "Op42": "Parque Zabulão",
+			   "Op43": "Peroba",
+			   "Op44": "Praiamar",
+			   "Op45": "Praia Tartarugas",
+			   "Op46": "Recanto",
+			   "Op47": "Recreio",
+			   "Op48": "Reduto da Paz",
+			   "Op49": "Residencial Camping do Bosque",
+			   "Op50": "Residencial Praia  ncora",
+			   "Op51": "Rocha Leão",
+			   "Op52": "São Cristóvão",
+			   "Op53": "Serramar",
+			   "Op54": "Terra Firme",
+			   "Op55": "Unamar",
+			   "Op56": "Verdes Mares",
+			   "Op57": "Vila Verde",
+			   "Op58": "Village Rio das Ostras",
+			   "Op59": "Zona Zen",
+			   "Op60": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "Rio das Ostras"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.9",
+			   "title": "Em que localidade/bairro o Sr(a) reside? São Francisco do Itabapoana:",
+			   "Op1": "Alegria dos Anjos",
+			   "Op2": "Alves",
+			   "Op3": "Amontado",
+			   "Op4": "Arriticum",
+			   "Op5": "Barra de Itabapoana",
+			   "Op6": "Barra Velha",
+			   "Op7": "Barrinha",
+			   "Op8": "Batelão",
+			   "Op9": "Boca da Areia",
+			   "Op10": "Bom Jardim",
+			   "Op11": "Bom Lugar",
+			   "Op12": "Buena",
+			   "Op13": "Buraco fundo",
+			   "Op14": "Caçador",
+			   "Op15": "Cacimbas",
+			   "Op16": "Campo Novo",
+			   "Op17": "Carrapato",
+			   "Op18": "Casas Populares (Barra)",
+			   "Op19": "Centro (SFI)",
+			   "Op20": "Coréia",
+			   "Op21": "Espiador",
+			   "Op22": "Estaleiro",
+			   "Op23": "Estreito",
+			   "Op24": "favelinha (Barra)",
+			   "Op25": "Faxina,",
+			   "Op26": "Floresta",
+			   "Op27": "Fumega (Barra)",
+			   "Op28": "Gargaú",
+			   "Op29": "Guarixima",
+			   "Op30": "Guaxindiba",
+			   "Op31": "Guriri",
+			   "Op32": "IIha dos Mineiros",
+			   "Op33": "Imburí de Cacimbas",
+			   "Op34": "Ingá (Barra)",
+			   "Op35": "Ladeira das pedras",
+			   "Op36": "Lagoa Doce",
+			   "Op37": "Lagoa Feia",
+			   "Op38": "Macuco",
+			   "Op39": "Manguinhos",
+			   "Op40": "Máquina",
+			   "Op41": "Morro Alegre",
+			   "Op42": "Morro do bode",
+			   "Op43": "Muritiba",
+			   "Op44": "Nova Belém",
+			   "Op45": "Nova Guaxindiba",
+			   "Op46": "Pingo D'água",
+			   "Op47": "Ponto de Cacimbas",
+			   "Op48": "Praça da Fé",
+			   "Op49": "Praça João Pessoa",
+			   "Op50": "Praia do Sossego",
+			   "Op51": "Praia dos Sonhos",
+			   "Op52": "Retiro",
+			   "Op53": "Santa Clara",
+			   "Op54": "Santa Rita",
+			   "Op55": "Santa Terrinha",
+			   "Op56": "São Domingos",
+			   "Op57": "São Paulinho",
+			   "Op58": "Travessão de Barra",
+			   "Op59": "Valão Seco",
+			   "Op60": "Volta Redonda",
+			   "Op61": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "São Francisco do Itabapoana"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.11.10",
+			   "title": "Em que localidade/bairro o Sr(a) reside? São João da Barra:",
+			   "Op1": "Água Preta",
+			   "Op2": "Água Santa",
+			   "Op3": "Alto do Cardeiro",
+			   "Op4": "Atafona",
+			   "Op5": "Azeitona",
+			   "Op6": "Bairro de Fátima",
+			   "Op7": "Bajuru",
+			   "Op8": "Barcelos",
+			   "Op9": "Barra do Açu",
+			   "Op10": "Bom Jardim",
+			   "Op11": "Cajueiro",
+			   "Op12": "Campo da Praia",
+			   "Op13": "Capela de São Pedro",
+			   "Op14": "Carrapicho",
+			   "Op15": "Cazumba",
+			   "Op16": "Cehab",
+			   "Op17": "Centro (SJB)",
+			   "Op18": "Chapéu de Sol",
+			   "Op19": "Chatuba",
+			   "Op20": "Coreia",
+			   "Op21": "Degredo",
+			   "Op22": "Grussaí",
+			   "Op23": "Lagoa",
+			   "Op24": "Manguinhos",
+			   "Op25": "Mato Escuro,",
+			   "Op26": "Nova São João da Barra",
+			   "Op27": "Outro lado da Lagoa",
+			   "Op28": "Palacete",
+			   "Op29": "Pedregal",
+			   "Op30": "Perigoso",
+			   "Op31": "Pipeiras",
+			   "Op32": "Pontal",
+			   "Op33": "Porto do Açu",
+			   "Op34": "Praça João Pessoa",
+			   "Op35": "Praia do Açu",
+			   "Op36": "Quixaba",
+			   "Op37": "Rua de Baixo",
+			   "Op38": "Sabonete",
+			   "Op39": "São João da Barra",
+			   "Op40": "VIla da Terra",
+			   "Op41": "Vila Esperança",
+			   "Op42": "Outra localidade/bairro não listado",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.9",
+					   "dependencyValue": "São João da Barra"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.12",
+			   "title": "Em que bairro/localidade pesqueira o(a) Sr(a) exerce sua atividade profissional? "
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.13",
+			   "title": "Em que bairro/localidade pesqueira o(a) Sr(a) possui maior afinidade pessoal e profissional?"
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.14",
+			   "title": "O(A) Sr(a) tem filho(s)?",
+			   "Op1": "Sim",
+			   "Op2": "Não"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.15",
+			   "title": "Quantos filhos o(a) Sr(a) tem?",
+			   "allowOnlyNumbers": true,
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.14",
+					   "dependencyValue": "Sim"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.16",
+			   "title": "Algum morador deste domicílio é menor de 18 anos?",
+			   "Op1": "Sim",
+			   "Op2": "Não"
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.17",
+			   "title": "Em qual estado (UF) o(a) Sr(a) nasceu?",
+			   "Op1": "Alagoas",
+			   "Op2": "Amapá",
+			   "Op3": "Amazonas",
+			   "Op4": "Bahia",
+			   "Op5": "Ceará",
+			   "Op6": "Distrito Federal",
+			   "Op7": "Espírito Santo",
+			   "Op8": "Goiás",
+			   "Op9": "Maranhão",
+			   "Op10": "Mato Grosso",
+			   "Op11": "Mato Grosso do Sul",
+			   "Op12": "Minas Gerais",
+			   "Op13": "Pará",
+			   "Op14": "Paraíba",
+			   "Op15": "Paraná",
+			   "Op16": "Pernambuco",
+			   "Op17": "Piauí",
+			   "Op18": "Rio de Janeiro",
+			   "Op19": "Rio Grande do Norte",
+			   "Op20": "Roraima",
+			   "Op21": "Santa Catarina",
+			   "Op22": "São Paulo",
+			   "Op23": "Tocantins",
+			   "Op24": "Acre",
+			   "Op25": "Sergipe,",
+			   "Op26": "Rio Grande do Sul",
+			   "Op27": "Rondônia"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.18",
+			   "title": "Em qual cidade o(a) Sr(a) nasceu?"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.19",
+			   "title": "Em qual cidade o(a) Sr(a) passou mais tempo da sua vida até completar 15 anos de idade?"
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.20",
+			   "title": "Em qual estado o(a) Sr(a) passou mais tempo da sua vida até completar 15 anos de idade?",
+			   "Op1": "Alagoas",
+			   "Op2": "Amapá",
+			   "Op3": "Amazonas",
+			   "Op4": "Bahia",
+			   "Op5": "Ceará",
+			   "Op6": "Distrito Federal",
+			   "Op7": "Espírito Santo",
+			   "Op8": "Goiás",
+			   "Op9": "Maranhão",
+			   "Op10": "Mato Grosso",
+			   "Op11": "Mato Grosso do Sul",
+			   "Op12": "Minas Gerais",
+			   "Op13": "Pará",
+			   "Op14": "Paraíba",
+			   "Op15": "Paraná",
+			   "Op16": "Pernambuco",
+			   "Op17": "Piauí",
+			   "Op18": "Rio de Janeiro",
+			   "Op19": "Rio Grande do Norte",
+			   "Op20": "Roraima",
+			   "Op21": "Santa Catarina",
+			   "Op22": "São Paulo",
+			   "Op23": "Tocantins",
+			   "Op24": "Acre",
+			   "Op25": "Sergipe,",
+			   "Op26": "Rio Grande do Sul",
+			   "Op27": "Rondônia"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.21",
+			   "title": "Há quanto tempo (anos completos) o(a) Sr(a) reside, sem interrupção, neste bairro/localidade?",
+			   "allowOnlyNumbers": true
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.22",
+			   "title": "Qual foi a principal razão que o(a) levou a permanecer ou mudar-se para esta localidade?",
+			   "Op1": "Oportunidades de Trabalho",
+			   "Op2": "Estar com a família",
+			   "Op3": "Melhor Educação",
+			   "Op4": "Para tratar da saúde/doença",
+			   "Op5": "Ter acesso à políticas públicas/programas sociais locais",
+			   "Op6": "Porque gosta do local",
+			   "Op7": "Por falta de outras opções",
+			   "Op8": "Outras razões"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.22.1",
+			   "title": "Qual a outra razão que o(a) levou a permanecer ou mudar-se para este bairro/localidade?",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.22",
+					   "dependencyValue": "Outras razões"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.23",
+			   "title": "Onde o(a) Sr(a) morava há 5 anos atrás (em julho de 2017)?",
+			   "Op1": "Nesta localidade/bairro",
+			   "Op2": "Outra localidade/bairro neste município",
+			   "Op3": "Outro município",
+			   "Op4": "Outro estado"
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.24",
+			   "title": "Em que localidade/bairro neste município o(a) Sr(a) morava há 5 anos atrás (em julho de 2017)?",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.23",
+					   "dependencyValue": "Outra localidade/bairro neste município"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "EditQuestion",
+			   "id": "RD.25",
+			   "title": "Qual município o(a) Sr(a) morava há 5 anos atrás (em julho de 2017)?",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.23",
+					   "dependencyValue": "Outro município"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.26",
+			   "title": "Qual Estado o(a) Sr(a) morava há 5 anos atrás (em julho de 2017)?",
+			   "Op1": "Alagoas",
+			   "Op2": "Amapá",
+			   "Op3": "Amazonas",
+			   "Op4": "Bahia",
+			   "Op5": "Ceará",
+			   "Op6": "Distrito Federal",
+			   "Op7": "Espírito Santo",
+			   "Op8": "Goiás",
+			   "Op9": "Maranhão",
+			   "Op10": "Mato Grosso",
+			   "Op11": "Mato Grosso do Sul",
+			   "Op12": "Minas Gerais",
+			   "Op13": "Pará",
+			   "Op14": "Paraíba",
+			   "Op15": "Paraná",
+			   "Op16": "Pernambuco",
+			   "Op17": "Piauí",
+			   "Op18": "Rio de Janeiro",
+			   "Op19": "Rio Grande do Norte",
+			   "Op20": "Roraima",
+			   "Op21": "Santa Catarina",
+			   "Op22": "São Paulo",
+			   "Op23": "Tocantins",
+			   "Op24": "Acre",
+			   "Op25": "Sergipe,",
+			   "Op26": "Rio Grande do Sul",
+			   "Op27": "Rondônia",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.23",
+					   "dependencyValue": "Outro estado"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.27",
+			   "title": "Por quem o(a) Sr(a) foi criado(a)?",
+			   "behavior": "Não ler opções",
+			   "Op1": "Pai e mãe",
+			   "Op2": "Só mãe",
+			   "Op3": "Só pai",
+			   "Op4": "Irmão(s) ou irmã(s)",
+			   "Op5": "Tios",
+			   "Op6": "Avós",
+			   "Op7": "Cresceu em abrigo ou orfanato",
+			   "Op8": "Não desejo falar sobre este tema."
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.28",
+			   "title": "Até que série/grau seu responsável masculino cursou a escola?",
+			   "Op1": "Nunca estudou e não sabe ler",
+			   "Op2": "Nunca estudou mas sabe ler",
+			   "Op3": "Ensino fundamental incompleto",
+			   "Op4": "Ensino fundamental completo",
+			   "Op5": "Ensino médio incompleto",
+			   "Op6": "Ensino médio completo",
+			   "Op7": "Ensino superior incompleto",
+			   "Op8": "Ensino superior completo",
+			   "Op9": "Curso técnico",
+			   "Op10": "Tecnólogo",
+			   "Op11": "Especialização",
+			   "Op12": "Pós-graduação",
+			   "Op13": "Não sabe",
+			   "Op14": "Não teve responsável masculino",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só pai"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.29",
+			   "title": "Qual era o principal trabalho remunerado do seu responsável masculino quando o(a) Sr(a) tinha 15 anos?",
+			   "Op1": "Mestre",
+			   "Op2": "Dono de barco que pesca",
+			   "Op3": "Pescador embarcado",
+			   "Op4": "Pescador desembarcado",
+			   "Op5": "Mergulhador",
+			   "Op6": "Pescador que atua no beneficiamento",
+			   "Op7": "Comerciante de pescado (intermediário)",
+			   "Op8": "Manutenção e fabricação de embarcações",
+			   "Op9": "Manutenção e fabricação de petrechos",
+			   "Op10": "Produção aquícola",
+			   "Op11": "Dono de barco que não pesca",
+			   "Op12": "Administração da colônia/associação",
+			   "Op13": "Artesão",
+			   "Op14": "Outra ocupação não ligada à pesca",
+			   "Op15": "Não sabe",
+			   "Op16": "Não teve responsável masculino",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só pai"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.30",
+			   "title": "Neste trabalho, o seu responsável masculino era?",
+			   "behavior": "Ler Opções",
+			   "Op1": "Empregado",
+			   "Op2": "Autônomo",
+			   "Op3": "Empregraiador",
+			   "Op4": "Não sabe",
+			   "Op5": "Não teve responsável masculino.",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só pai"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.31",
+			   "title": "Até que série/grau sua responsável feminina cursou a escola?",
+			   "Op1": "Nunca estudou e não sabe ler",
+			   "Op2": "Nunca estudou mas sabe ler",
+			   "Op3": "Ensino fundamental incompleto",
+			   "Op4": "Ensino fundamental completo",
+			   "Op5": "Ensino médio incompleto",
+			   "Op6": "Ensino médio completo",
+			   "Op7": "Ensino superior incompleto",
+			   "Op8": "Ensino superior completo",
+			   "Op9": "Curso técnico",
+			   "Op10": "Tecnólogo",
+			   "Op11": "Especialização",
+			   "Op12": "Pós-graduação",
+			   "Op13": "Não sabe",
+			   "Op14": "Não teve responsável feminina",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "SpinnerChoiceQuestion",
+			   "id": "RD.32",
+			   "title": "Qual era o principal trabalho remunerado da sua responsável feminina quando o(a) Sr(a) tinha 15 anos?",
+			   "Op1": "Mestra",
+			   "Op2": "Dona de barco que pesca",
+			   "Op3": "Pescadora embarcada",
+			   "Op4": "Pescadora desembarcada",
+			   "Op5": "Mergulhadora",
+			   "Op6": "Pescadora que atua no beneficiamento",
+			   "Op7": "Comerciante de pescado (intermediária)",
+			   "Op8": "Manutenção e fabricação de embarcações",
+			   "Op9": "Manutenção e fabricação de petrechos",
+			   "Op10": "Produção aquícola",
+			   "Op11": "Dona de barco que não pesca",
+			   "Op12": "Administração da colônia/associação",
+			   "Op13": "Artesã",
+			   "Op14": "Outra ocupação não ligada à pesca",
+			   "Op15": "Não sabe",
+			   "Op16": "Não teve responsável feminina",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.33",
+			   "title": "Neste trabalho a sua responsável feminina era?",
+			   "behavior": "Ler Opções",
+			   "Op1": "Empregada",
+			   "Op2": "Autônoma",
+			   "Op3": "Empregadora",
+			   "Op4": "Do lar",
+			   "Op5": "Não teve responsável feminina.",
+			   "dependencies": [
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Pai e mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Só mãe"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Irmão(s) ou irmã(s)"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Tios"
+				   },
+				   {
+					   "dependencyID": "RD.27",
+					   "dependencyValue": "Avós"
+				   }
+			   ]
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.34",
+			   "title": "Desde que geração ininterrupta sua família está na pesca?",
+			   "behavior": "Ler Opções",
+			   "Op1": "Começou comigo, meus antepassados não atuavam na pesca",
+			   "Op2": "Desde meus pais/tios",
+			   "Op3": "desde meus avós",
+			   "Op4": "desde meus bisavós",
+			   "Op5": "desde meus trisavós"
+		   },
+
+		   {
+			   "type": "OnlyOneChoiceQuestion",
+			   "id": "RD.35",
+			   "title": "Existe alguma outra família morando neste domicílio que tenha algum membro ligado à cadeia da pesca artesanal? (Lembrete: Caso a resposta seja “sim” abrir outro questionário)",
+			   "Op1": "Sim",
+			   "Op2": "Não"
+		   }
+
+
+	   ]
+   },
+
+	{
+		"Bloco 2 - Caracterização Familiar": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ3",
+				"title": "Bloco 2 - Caracterização Familiar"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.1",
+				"title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr(a)?",
+				"allowOnlyNumbers": true
+			},
+
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "CF.2",
+				"title": "Nome Completo:",
+				"notShowENES": true,
+				"replication": "CF.1",
+				"reference": "RD.2"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.3",
+				"title": "Qual o grau de parentesco do Sr(a) com [ ]?",
+				"Op1": "Esposo/Esposa",
+				"Op2": "Filho/Filha/Enteado",
+				"Op3": "Genro/Nora",
+				"Op4": "Pai/Mãe/Padrasto/Madrasta",
+				"Op5": "Sogro/a",
+				"Op6": "Neto/a",
+				"Op7": "Bisneto/a",
+				"Op8": "Irmão/Irmã",
+				"Op9": "Avô/Avó",
+				"Op10": "Outro tipo de parente",
+				"Op11": "Agregado",
+				"Op12": "É a mesma pessoa",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.4",
+				"title": "Qual o sexo de [ ]?",
+				"Op1": "Masculino",
+				"Op2": "Feminino",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.5",
+				"title": "Qual a idade (em anos completos) de [ ]?",
+				"allowOnlyNumbers": true,
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.5.1",
+				"title": "Confirme a idade de [ ]:",
+				"Op1": "menor de 16 anos",
+				"Op2": "Igual ou maior de 16 anos",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.6",
+				"title": "Qual a cor de [ ]?",
+				"Op1": "Branca",
+				"Op2": "Preta",
+				"Op3": "Parda",
+				"Op4": "Amarela",
+				"Op5": "Indígena",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.7",
+				"title": "[ ] tem religião/culto?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.8",
+				"title": "Qual a religião/culto de [ ]?",
+				"Op1": "Evangélica",
+				"Op2": "Umbanda",
+				"Op3": "Candomblé",
+				"Op4": "Espírita Kardecista",
+				"Op5": "Católica",
+				"Op6": "Judaica",
+				"Op7": "Budista",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.7",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.9",
+				"title": "Com relação à escolaridade, [ ]:",
+				"Op1": "Nunca estudou e não sabe ler nem escrever",
+				"Op2": "Nunca estudou, mas sabe ler e escrever",
+				"Op3": "Estudou, sabe ler e escrever",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.10",
+				"title": "Qual o curso mais elevado que [ ] frequentou?",
+				"Op1": "Creche",
+				"Op2": "Pré-escola",
+				"Op3": "Ensino fundamental",
+				"Op4": "Ensino médio",
+				"Op5": "Ensino superior",
+				"Op6": "Pós-graduação",
+				"showDontKnow": true,
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.9",
+						"dependencyValue": "Estudou, sabe ler e escrever"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.11",
+				"title": "Atualmente [ ] frequenta a escola/curso?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.9",
+						"dependencyValue": "Estudou, sabe ler e escrever"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.12",
+				"title": "[ ] faz algum curso profissionalizante?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"Op3": "Não sabe",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.11",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.13",
+				"title": "Qual curso profissionalizante [ ] faz atualmente?",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.12",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.14",
+				"title": "[ ] já fez algum curso profissionalizante?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"Op3": "Não sabe",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.9",
+						"dependencyValue": "Estudou, sabe ler e escrever"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.15",
+				"title": "Qual curso profissionalizante [ ] já fez?",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.14",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.16",
+				"title": "[ ] gostaria de fazer algum curso profissionalizante?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"Op3": "Não sabe",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.17",
+				"title": "Qual curso profissionalizante [ ] gostaria de fazer?",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.19",
+				"title": "[ ] possui algum tipo de necessidade especial? ",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.21",
+				"title": "[ ] tem algum problema de saúde?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "CF.22",
+				"title": "Qual o problema de saúde [ ] possui?",
+				"Op1": "Hipertensão",
+				"Op2": "Diabetes",
+				"Op3": "Infecções",
+				"Op4": "Problemas de coluna (hérnias e contusões)",
+				"Op5": "Varizes, artroses, reumatismos, osteoporoses",
+				"Op6": "Lesões causadas por esforço repetitivo",
+				"Op7": "Problemas oftálmicos",
+				"Op8": "Problemas respiratórios",
+				"Op9": "Micoses",
+				"10": "Câncer",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.21",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.23",
+				"title": "[ ] já teve ou tem alguma doença que considera estar relacionada à sua atividade de trabalho na pesca?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "CF.24",
+				"title": "Qual a situação de [ ] no mercado de trabalho? ",
+				"behavior": "Ler as opções",
+				"Op1": "Empregado com carteira assinada",
+				"Op2": "Empregado sem carteira assinada (recebe salário)",
+				"Op3": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)",
+				"Op4": "Desocupado (desempregado maior de 14 anos procurando trabalho)",
+				"Op5": "Desalentado (desempregado maior de 14 anos que, embora queira trabalhar, desistiu de procurar vagas, pois não acredita que vai encontrar emprego)",
+				"Op6": "Bolsista",
+				"Op7": "Aposentado/pensionista",
+				"Op8": "Aposentado como pescador (inativo)",
+				"Op9": "Aposentado como pescador (ainda em atividade)",
+				"Op10": "Pescador inativo/segurado especial",
+				"Op11": "Estagiário",
+				"Op12": "Funcionário público",
+				"Op13": "Dona de casa",
+				"Op14": "Ajudante familiar sem remuneração",
+				"Op15": "Empreendedor (dono de barco, comerciante, atravessador)",
+				"Op16": "Adolescente aprendiz (menor aprendiz)",
+				"Op17": "Ainda não entrou no mercado de trabalho (menor de 14 anos).",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.25",
+				"title": "[ ] exerce alguma atividade remunerada ligada à cadeia da pesca artesanal?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.26",
+				"title": "[ ]: Qual a principal ocupação ligada à pesca artesanal? (A que gera maior renda)",
+				"behavior": "Ler opções",
+				"Op1": "Mestres(as)",
+				"Op2": "Donos(as) de barco que pescam",
+				"Op3": "Pescador embarcado",
+				"Op4": "Pescador desembarcado",
+				"Op5": "Mergulhadores",
+				"Op6": "Beneficiamento de pescado",
+				"Op7": "Comerciante de pescado",
+				"Op8": "Reparador e/ou fabricante de embarcações",
+				"Op9": "Reparador e/ou fabricante de petrechos",
+				"Op10": "Produtor aquícola",
+				"Op11": "Dono de barco que não pesca",
+				"Op12": "Administração da colônia/associação",
+				"Op13": "Artesão",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.25",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.27",
+				"title": "[ ]: Qual o rendimento médio mensal na principal ocupação ligada à pesca artesanal? (Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador)",
+				"allowOnlyNumbers": true,
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.25",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.28",
+				"title": "[ ]: Confirme a renda média mensal em sua principal atividade profissional ligada à pesca artesanal (Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador).",
+				"Op1": "Até R$500,00",
+				"Op2": "De R$500,01 a R$1.100,00",
+				"Op3": "De R$1.100,01 a R$2.200,00",
+				"Op4": "De R$2.200,01 a R$3.300,00",
+				"Op5": "De R$3.300,01 a R$4.400,00",
+				"Op6": "De R$4.400,01 a R$5.500,00",
+				"Op7": "De R$5.500,01 a R$6.600,00",
+				"Op8": "De R$6.600,01 a R$7.700,00",
+				"Op9": "De R$7.700,01 a R$8.800,00",
+				"Op10": "De R$8.800,01 a R$9.900,00",
+				"Op11": "De R$9.900,01 a R$11.000,00",
+				"Op12": "Mais de R$11.000,00",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.25",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.29",
+				"title": "[ ] possui outra ocupação ligada à pesca artesanal? (Ocupação secundária)",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.25",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.30",
+				"title": "[ ]: Qual é sua outra ocupação ligada à pesca artesanal? ",
+				"Op1": "Mestres(as)",
+				"Op2": "Donos(as) de barco que pescam",
+				"Op3": "Pescador embarcado",
+				"Op4": "Pescador desembarcado",
+				"Op5": "Mergulhadores",
+				"Op6": "Beneficiamento de pescado",
+				"Op7": "Comerciante de pescado",
+				"Op8": "Manutenção e fabricação de embarcações",
+				"Op9": "Manutenção e fabricação de petrechos",
+				"Op10": "Produção aquícola",
+				"Op11": "Dono de barco que não pesca",
+				"Op12": "Administração da colônia/associação",
+				"Op13": "Artesão",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.29",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.31",
+				"title": "Qual o rendimento médio mensal de [    ] em sua segunda ocupação ligada à pesca artesanal (Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador)?",
+				"replication": "CF.1",
+				"allowOnlyNumbers": true,
+				"dependencies": [
+					{
+						"dependencyID": "CF.29",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.32",
+				"title": "Confirme o rendimento médio mensal de [    ] em sua outra ocupação ligada à pesca artesanal (Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador).",
+				"Op1": "Até R$500,00",
+				"Op2": "De R$500,01 a R$1.100,00",
+				"Op3": "De R$1.100,01 a R$2.200,00",
+				"Op4": "De R$2.200,01 a R$3.300,00",
+				"Op5": "De R$3.300,01 a R$4.400,00",
+				"Op6": "De R$4.400,01 a R$5.500,00",
+				"Op7": "De R$5.500,01 a R$6.600,00",
+				"Op8": "De R$6.600,01 a R$7.700,00",
+				"Op9": "De R$7.700,01 a R$8.800,00",
+				"Op10": "De R$8.800,01 a R$9.900,00",
+				"Op11": "De R$9.900,01 a R$11.000,00",
+				"Op12": "Mais de R$11.000,00",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.29",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.33",
+				"title": "[ ] exerce alguma atividade remunerada não ligada à pesca artesanal?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.34",
+				"title": "Qual a renda média mensal de [ ] na atividade remunerada não ligada à pesca artesanal?",
+				"replication": "CF.1",
+				"allowOnlyNumbers": true,
+				"dependencies": [
+					{
+						"dependencyID": "CF.33",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.35",
+				"title": "Confirme o rendimento médio mensal de [ ] nesta ocupação não ligada à pesca artesanal.",
+				"Op1": "Até R$500,00",
+				"Op2": "De R$500,01 a R$1.100,00",
+				"Op3": "De R$1.100,01 a R$2.200,00",
+				"Op4": "De R$2.200,01 a R$3.300,00",
+				"Op5": "De R$3.300,01 a R$4.400,00",
+				"Op6": "De R$4.400,01 a R$5.500,00",
+				"Op7": "De R$5.500,01 a R$6.600,00",
+				"Op8": "De R$6.600,01 a R$7.700,00",
+				"Op9": "De R$7.700,01 a R$8.800,00",
+				"Op10": "De R$8.800,01 a R$9.900,00",
+				"Op11": "De R$9.900,01 a R$11.000,00",
+				"Op12": "Mais de R$11.000,00",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.33",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.36",
+				"title": "[ ]  Exerce outra atividade remunerada não ligada à pesca artesanal? ",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.33",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.37",
+				"title": "Qual o rendimento médio mensal de [ ] nesta outra ocupação não ligada à pesca artesanal?",
+				"replication": "CF.1",
+				"allowOnlyNumbers": true,
+				"dependencies": [
+					{
+						"dependencyID": "CF.36",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.38",
+				"title": "Confirme o rendimento médio mensal de [ ] nesta outra ocupação não ligada à pesca artesanal.",
+				"Op1": "Até R$500,00",
+				"Op2": "De R$500,01 a R$1.100,00",
+				"Op3": "De R$1.100,01 a R$2.200,00",
+				"Op4": "De R$2.200,01 a R$3.300,00",
+				"Op5": "De R$3.300,01 a R$4.400,00",
+				"Op6": "De R$4.400,01 a R$5.500,00",
+				"Op7": "De R$5.500,01 a R$6.600,00",
+				"Op8": "De R$6.600,01 a R$7.700,00",
+				"Op9": "De R$7.700,01 a R$8.800,00",
+				"Op10": "De R$8.800,01 a R$9.900,00",
+				"Op11": "De R$9.900,01 a R$11.000,00",
+				"Op12": "Mais de R$11.000,00",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.36",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.39",
+				"title": "[ ] recebe algum benefício proveniente de programas sociais de transferência de renda? ",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1"
+			},
+
+			{
+				"type": "MultipleChoiceQuestion",
+				"id": "CF.40",
+				"title": "[ ]: quais programas de transferência de renda o(a) Sr(a) é beneficiário?",
+				"Op1": "Bolsa família",
+				"Op2": "Brasil Carinhoso",
+				"Op3": "PETI",
+				"Op4": "BPC",
+				"Op5": "Renda Melhor",
+				"Op6": "Renda Melhor Jovem",
+				"Op7": "Renda mínima",
+				"Op8": "Cheque alimentação",
+				"Op9": "Vale Cidadão",
+				"Op10": "Guarda Mirim",
+
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.39",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.40.1",
+				"title": "[ ]: Qual outro programa de transferência de renda não relacionado o(a) Sr(a) é beneficiário?",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.40",
+						"dependencyValue": "Outro programa social de transferência de renda não relacionado"
+					}
+				]
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "CF.41",
+				"title": "[ ]: Qual o valor total destes benefícios proveniente de programas de transferência de renda?",
+				"allowOnlyNumbers": true,
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.39",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "CF.42",
+				"title": "[ ]: Confirme o valor total destes benefícios proveniente de programas de transferência de renda?",
+				"Op1": "Até R$100,00",
+				"Op2": "De R$100,01 a R$ 500,00",
+				"Op3": "De R$500,01 a R$1.000,00",
+				"Op4": "De R$1.000,01 a R$1.500,00",
+				"Op5": "De R$1.500,01 a R$2.000,00",
+				"Op6": "De R$2.000,01 a R$2.500,00",
+				"Op7": "De R$2.500,01 a R$3.000,00",
+				"Op8": "Mais de R$3.000,00",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.39",
+						"dependencyValue": "Sim"
+					}
+				]
+			}
+
+		]
+	},
+
+	{
+		"Bloco 8 - Gênero": [
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ4",
+				"title": "Bloco 8 - Gênero"
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "G.1",
+				"title": "[ ]: Em seu domicílio quanto tempo (em horas) gasta diariamente para cozinhar?",
+				"Op1": "1",
+				"Op2": "2",
+				"Op3": "3",
+				"Op4": "4",
+				"Op5": "5",
+				"Op6": "6",
+				"Op7": "7",
+				"Op8": "8",
+				"Op9": "9",
+				"Op10": "10",
+				"Op11": "11",
+				"Op12": "12",
+				"Op13": "13",
+				"Op14": "14",
+				"Op15": "15",
+				"Op16": "16",
+				"Op17": "17",
+				"Op18": "18",
+				"Op19": "19",
+				"Op20": "20",
+				"Op21": "21",
+				"Op22": "22",
+				"Op23": "23",
+				"Op24": "24",
+				"Op25": "0,",
+				"Op26": "Não realiza esta atividade em casa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "G.2",
+				"title": "[ ]: Em seu domicílio quanto tempo (em horas) gasta diariamente com o cuidado com as crianças?",
+				"Op1": "1",
+				"Op2": "2",
+				"Op3": "3",
+				"Op4": "4",
+				"Op5": "5",
+				"Op6": "6",
+				"Op7": "7",
+				"Op8": "8",
+				"Op9": "9",
+				"Op10": "10",
+				"Op11": "11",
+				"Op12": "12",
+				"Op13": "13",
+				"Op14": "14",
+				"Op15": "15",
+				"Op16": "16",
+				"Op17": "17",
+				"Op18": "18",
+				"Op19": "19",
+				"Op20": "20",
+				"Op21": "21",
+				"Op22": "22",
+				"Op23": "23",
+				"Op24": "24",
+				"Op25": "0,",
+				"Op26": "Não realiza esta atividade em casa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "G.3",
+				"title": "[ ]: Em seu domicílio quanto tempo (em horas) gasta diariamente com cuidado com os idosos?",
+				"Op1": "1",
+				"Op2": "2",
+				"Op3": "3",
+				"Op4": "4",
+				"Op5": "5",
+				"Op6": "6",
+				"Op7": "7",
+				"Op8": "8",
+				"Op9": "9",
+				"Op10": "10",
+				"Op11": "11",
+				"Op12": "12",
+				"Op13": "13",
+				"Op14": "14",
+				"Op15": "15",
+				"Op16": "16",
+				"Op17": "17",
+				"Op18": "18",
+				"Op19": "19",
+				"Op20": "20",
+				"Op21": "21",
+				"Op22": "22",
+				"Op23": "23",
+				"Op24": "24",
+				"Op25": "0,",
+				"Op26": "Não realiza esta atividade em casa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "G.4",
+				"title": "[ ]: Em seu domicílio quanto tempo (em horas) gasta diariamente com cuidados com os doentes?",
+				"Op1": "1",
+				"Op2": "2",
+				"Op3": "3",
+				"Op4": "4",
+				"Op5": "5",
+				"Op6": "6",
+				"Op7": "7",
+				"Op8": "8",
+				"Op9": "9",
+				"Op10": "10",
+				"Op11": "11",
+				"Op12": "12",
+				"Op13": "13",
+				"Op14": "14",
+				"Op15": "15",
+				"Op16": "16",
+				"Op17": "17",
+				"Op18": "18",
+				"Op19": "19",
+				"Op20": "20",
+				"Op21": "21",
+				"Op22": "22",
+				"Op23": "23",
+				"Op24": "24",
+				"Op25": "0,",
+				"Op26": "Não realiza esta atividade em casa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "SpinnerChoiceQuestion",
+				"id": "G.5",
+				"title": "[ ]: Em seu domicílio quanto tempo (em horas) gasta diariamente com limpeza do domicílio (varrer, lavar banheiros, lavar roupas)",
+				"Op1": "1",
+				"Op2": "2",
+				"Op3": "3",
+				"Op4": "4",
+				"Op5": "5",
+				"Op6": "6",
+				"Op7": "7",
+				"Op8": "8",
+				"Op9": "9",
+				"Op10": "10",
+				"Op11": "11",
+				"Op12": "12",
+				"Op13": "13",
+				"Op14": "14",
+				"Op15": "15",
+				"Op16": "16",
+				"Op17": "17",
+				"Op18": "18",
+				"Op19": "19",
+				"Op20": "20",
+				"Op21": "21",
+				"Op22": "22",
+				"Op23": "23",
+				"Op24": "24",
+				"Op25": "0,",
+				"Op26": "Não realiza esta atividade em casa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.6",
+				"title": "[ ]: Em seu domicílio, quando necessário, realiza pequenos reparos? (elétricos, hidráulicos, construção)",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.7",
+				"title": "[ ]: Os outros membros da casa se dedicam a organização das tarefas domésticas como: cozinhar, cuidado com as crianças, cuidado com os idosos, cuidados com os doentes, limpeza do domicílio (varrer, lavar banheiros, lavar roupas)?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.8",
+				"title": "[ ]: Em sua casa, quem é o principal responsável pelo sustento da sua família?",
+				"behavior": "Espontânea",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.9",
+				"title": "[ ]: Quem em sua casa toma as decisões sobre em que escola seu(s) filho(s) deve(m) estudar?",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa",
+				"Op8": "Não tenho filhos",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "ASEP.18",
+						"dependencyValue": "Sim"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.10",
+				"title": "[ ]: Quem em sua casa toma as decisões sobre as compras diárias que devem ser realizadas para a casa (alimentos, etc)?",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.11",
+				"title": "[ ]: Quem em sua casa toma as decisões sobre os horários das atividades dos filhos (estudar, assistir TV, brincar, dormir, etc)?",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "ASEP.18",
+						"dependencyValue": "Sim"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.12",
+				"title": "[ ]: Quem em sua casa toma as decisões sobre as compras de eletrodomésticos, móveis ou outros bens de valor?",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.13",
+				"title": "[ ]: Quem em sua casa toma as decisões sobre o lazer familiar (passeios, viagens, ida a clubes, ida a praias, etc.)?",
+				"Op1": "Exclusivamente a senhora",
+				"Op2": "Mais a senhora",
+				"Op3": "Mais seu(sua) esposo(a)",
+				"Op4": "Ambos (eu e meu(minha) esposo(a)) igualmente",
+				"Op5": "Minha mãe",
+				"Op6": "Meu pai",
+				"Op7": "Outra pessoa",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.14",
+				"title": "[ ]: Em que quantidade o seu trabalho contribui para o orçamento da família? ",
+				"behavior": "Ler opções",
+				"Op1": "É a única fonte de renda",
+				"Op2": "Contribui com mais da metade da renda",
+				"Op3": "Contribui com metade da renda",
+				"Op4": "Contribui com menos da metade da renda",
+				"Op5": "Contribui pouco",
+				"Op6": "Não contribui nada.",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.15",
+				"title": "[ ]: Como começou a atuar em sua atividade profissional?",
+				"Op1": "Escolha própria",
+				"Op2": "Sonho da família",
+				"Op3": "Levada pelo responsável (mãe ou pai)",
+				"Op4": "Indicação de familiares/amigos",
+				"Op5": "Foi convidada pelo frigorífico",
+				"Op6": "Por influência/indicação do marido",
+				"Op7": "Única oferta de emprego no momento",
+				"Op8": "Melhor oferta de emprego no momento",
+				"Op9": "Estabilidade financeira",
+				"Op10": "Estabilidade profissional",
+				"Op11": "Outros motivos",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					},
+					{
+						"dependencyID": "CF.25",
+						"dependencyValue": "Sim"
+					},
+					{
+						"dependencyID": "CF.29",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "G.16",
+				"title": "[ ]: Ter filho é algo fundamental para a realização da mulher?",
+				"Op1": "Concordo totalmente",
+				"Op2": "Concordo parcialmente",
+				"Op3": "Não sei",
+				"Op4": "Discordo parcialmente",
+				"Op5": "Discordo totalmente",
+				"replication": "CF.1",
+				"dependencies": [
+					{
+						"dependencyID": "CF.4",
+						"dependencyValue": "Feminino"
+					},
+					{
+						"dependencyID": "CF.5.1",
+						"dependencyValue": "Igual ou maior de 16 anos"
+					}
+				]
+			}
+
+		]
+	},
+
+	{
+		"Bloco 10 - (In)Segurança Alimentar entre Pescadores": [
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ5",
+				"title": "Bloco 10 - (In)Segurança Alimentar entre Pescadores"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.1",
+				"title": "Nos últimos três meses, os moradores deste domicílio tiveram a preocupação de que a comida acabasse antes que tivessem dinheiro para comprar mais comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.2",
+				"title": "Nos últimos três meses, os alimentos acabaram antes que os moradores deste domicílio tivessem dinheiro para comprar mais comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.3",
+				"title": "Nos últimos três meses, os moradores deste domicílio ficaram sem dinheiro para ter uma alimentação saudável e variada?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.4",
+				"title": "Nos últimos 3 meses os moradores deste domicílio comeram apenas alguns poucos tipos de alimentos que ainda tinham, porque o dinheiro acabou? ",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.5",
+				"title": "Nos últimos três meses, algum morador de 18 anos ou mais de idade, deixou de fazer alguma refeição, porque não havia dinheiro para comprar a comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.6",
+				"title": "Nos últimos três meses, algum morador de 18 anos ou mais de idade, comeu menos do que achou que devia, porque não havia dinheiro para comprar comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.7",
+				"title": "Nos últimos três meses, algum morador de 18 anos ou mais de idade sentiu fome, mas não comeu, porque não tinha dinheiro para comprar comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.8",
+				"title": "Nos últimos três meses, algum morador de 18 anos ou mais de idade ficou um dia inteiro sem comer ou, teve apenas uma refeição ao dia, porque não tinha dinheiro para comprar a comida?",
+				"Op1": "Sim",
+				"Op2": "Não"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.9",
+				"title": "Nos últimos três meses, os moradores com menos de 18 anos de idade, não puderam ter uma alimentação saudável e variada, porque não havia dinheiro para comprar comida?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.10",
+				"title": "Nos últimos 3 meses, algum morador com menos de 18 anos de idade comeu menos do que você achou que devia porque não havia dinheiro para comprar a comida?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.11",
+				"title": "Nos últimos três meses foi diminuída a quantidade de alimentos das refeições de algum morador com menos de 18 anos de idade, porque não havia dinheiro suficiente para comprar a comida?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.12",
+				"title": "Nos últimos três meses, algum morador com menos de 18 anos de idade deixou de fazer alguma refeição, porque não havia dinheiro para comprar a comida?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.13",
+				"title": "Nos últimos três meses algum morador com menos de 18 anos de idade sentiu fome, mas não comeu, porque não havia dinheiro para comprar mais comida? ",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "IAP.14",
+				"title": "Nos últimos três meses algum morador com menos de 18 anos de idade ficou um dia inteiro sem comer ou, teve apenas uma refeição ao dia, porque não havia dinheiro para comprar comida?",
+				"Op1": "Sim",
+				"Op2": "Não",
+				"dependencies": [
+					{
+						"dependencyID": "RD.16",
+						"dependencyValue": "Sim"
+					}
+				]
+			}
+
+		]
+	}
+]

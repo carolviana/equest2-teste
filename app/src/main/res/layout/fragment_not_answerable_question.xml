@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/white">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="75dp"
+        tools:text="01 Bloco Identificação Socioeconômica / Características Demográficas"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/closure"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_closure"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/noclosure"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"
+        android:rotation="45"
+        android:src="@drawable/ic_no_closure"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_next_arrow"
+        app:layout_constraintTop_toTopOf="@id/closure"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintTop_toTopOf="@id/closure"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

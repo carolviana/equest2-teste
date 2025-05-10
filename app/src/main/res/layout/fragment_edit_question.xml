@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/white">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Por favor, nós iremos anotar um número de telefone somente para que a supervisão da pesquisa possa confirmar a realização da entrevista. Por favor, qual o número de telefone para contato?" />
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/input"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/shape_round_transparent_blueborder"-->
+<!--        android:hint="Digite aqui"-->
+<!--        android:padding="14dp"-->
+<!--        android:textColor="@color/blue"-->
+<!--        android:textColorHint="@color/grey"-->
+<!--        android:textSize="24sp"-->
+<!--        android:cursorVisible="true"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:layout_marginRight="32dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/question"/>-->
+
+
+<!--    <View-->
+<!--        android:id="@+id/input_mask"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/input"-->
+<!--        app:layout_constraintLeft_toLeftOf="@id/input"-->
+<!--        app:layout_constraintRight_toRightOf="@id/input"-->
+<!--        app:layout_constraintTop_toTopOf="@id/input" />-->
+
+    <RelativeLayout
+        android:id="@+id/input_mask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alwaysDrawnWithCache="true"
+        android:background="@drawable/shape_round_transparent_blueborder"
+        android:paddingLeft="25dp"
+        android:paddingTop="4dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="4dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question">
+
+                <EditText
+                    android:id="@+id/input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Digite aqui"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/grey" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/enes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/input_mask">
+
+                <RadioButton
+                    android:id="@+id/enes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Não sabe"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/enes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Não respondeu"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/enes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Não se aplica"
+                    android:textColor="@android:color/black" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/previous"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_back_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/next"
+                 />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_next_arrow"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/enes"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>

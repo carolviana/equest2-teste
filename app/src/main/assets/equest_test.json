@@ -1,0 +1,84 @@
+[
+	{
+		"Bloco 1 - Teste Simples": [
+
+			{
+				"type": "NotAnswerableQuestion",
+				"id": "NAQ",
+				"title": "Bla Bla Bla."
+			},
+
+			{
+				"type": "EditQuestion",
+				"id": "1",
+				"title": "Quantas pessoas da sua família moram neste domicílio, incluindo o(a) Sr(a).?",
+				"allowOnlyNumbers": true
+			},
+
+			{
+				"type": "PersonCreatorQuestion",
+				"id": "2",
+				"title": "Nome completo:",
+				"replication": "1"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "1.5",
+				"title": "Pergunta do tipo marque somente uma opção:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20"
+			},
+
+			{
+				"type": "OnlyOneChoiceQuestion",
+				"id": "1.6",
+				"title": "Pergunta do tipo marque somente uma opção com opções NS NR NA:",
+				"behavior": "Preenchido pelo entrevistador",
+				"Op1": "Opção 1",
+				"Op2": "Opção 2",
+				"Op3": "Opção 3",
+				"Op4": "Opção 4",
+				"Op5": "Opção 5",
+				"Op6": "Opção 6",
+				"Op7": "Opção 7",
+				"Op8": "Opção 8",
+				"Op9": "Opção 9",
+				"Op10": "Opção 10",
+				"Op11": "Opção 11",
+				"Op12": "Opção 12",
+				"Op13": "Opção 13",
+				"Op14": "Opção 14",
+				"Op15": "Opção 15",
+				"Op16": "Opção 16",
+				"Op17": "Opção 17",
+				"Op18": "Opção 18",
+				"Op19": "Opção 19",
+				"Op20": "Opção 20",
+				"showDontKnow": true,
+				"showDontAnswer": true,
+				"showDontAply": true
+			}
+		]
+
+	}
+]

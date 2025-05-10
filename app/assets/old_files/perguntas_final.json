@@ -1,0 +1,1571 @@
+[
+  {
+    "01 Bloco Identificação Socioeconômica/ Características Demográficas": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ21",
+        "behavior": "(ATENÇÃO!!) Explicar para o entrevistado: Todos esses dados serão usados estatisticamente e os nomes não serão divulgados.",
+        "title": "01 Bloco Identificação Socioeconômica / Características Demográficas"
+      },
+      {
+        "type": "CityCheckQuestion",
+        "id": "IS.1",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Município do estudo",
+        "OpA": "Campos dos Goytacazes",
+        "OpB": "Macaé",
+        "OpC": "São Francisco do Itabapoana",
+        "OpD": "São João da Barra",
+        "OpE": "Arraial do Cabo",
+        "OpF": "Cabo Frio",
+        "OpG": "Quissamã",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.1",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Farol De São Tomé",
+        "OpB": "Terminal Pesqueiro",
+        "OpC": "Coroa Grande",
+        "OpD": "Parque Dos Prazeres",
+        "OpE": "Lagoa Do Vigário",
+        "OpF": "Ponta Grossa Dos Fidalgos",
+        "OpG": "Lagoa do Campelo",
+        "OpH": "Lagoa de Cima",
+        "OpI": "Pernambuca",
+        "OpJ": "Barra Seca",
+        "OpK": "Imbé",
+        "OpL": "Carvão",
+        "OpM": "Canal das Flechas",
+        "OpN": "Matadouro",
+        "OpO": "Tocos",
+        "OpP": "Mussurepe",
+        "OpQ": "Parque Aldeia",
+        "OpR": "Santa Ana",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Campos dos Goytacazes"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.2",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Barra de Macaé",
+        "OpB": "Nova Holanda",
+        "OpC": "Nova Esperança",
+        "OpD": "Brasília",
+        "OpE": "Aeroporto",
+        "OpF": "Fronteira",
+        "OpG": "Malvina",
+        "OpH": "Engenho da Praia",
+        "OpI": "Rio das Ostras",
+        "OpJ": "Lagomar",
+        "OpOther": "Outros",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Macaé"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.3",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Gargaú",
+        "OpB": "Guaxindiba",
+        "OpC": "Barra De Itabapoana",
+        "OpD": "Barrinha",
+        "OpE": "Buena",
+        "OpF": "Lagoa Doce",
+        "OpG": "Deserto Feliz",
+        "OpH": "Máquina",
+        "OpI": "Santa Clara",
+        "OpJ": "Campo Novo",
+        "OpK": "Cacimbas",
+        "OpL": "Muritiba",
+        "OpM": "Sossego",
+        "OpN": "Ilha dos Mineiros",
+        "OpO": "Praia do Sonho",
+        "OpP": "Tatagiba",
+        "OpQ": "Manguinhos",
+        "OpR": "Lagoa Feia",
+        "OpS": "Retiro",
+        "OpT": "Guriri",
+        "OpU": "Guariximá",
+        "OpV": "Praça João Pessoa",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "São Francisco do Itabapoana"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.4",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Atafona",
+        "OpB": "Açu",
+        "OpC": "Quixaba",
+        "OpD": "Grussaí",
+        "OpE": "Azeitona",
+        "OpF": "Barcelos",
+        "OpG": "Cajueiro",
+        "OpH": "Degredo",
+        "OpI": "Mato Escuro",
+        "OpJ": "Alto do Cardeiro",
+        "OpK": "Capela de São Pedro",
+        "OpL": "Sabonete",
+        "OpM": "Agua Preta",
+        "OpN": "Vila Esperança",
+        "OpO": "Chatuba",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "São João da Barra"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.5",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Figueira",
+        "OpB": "Prainha",
+        "OpC": "Porto Do Forno ",
+        "OpD": "Praia Dos Anjos",
+        "OpE": "Praia Grande",
+        "OpF": "Praia do Pontal",
+        "OpG": "Monte Alto",
+        "OpH": "Caiçara",
+        "OpI": "Sabiá",
+        "OpJ": "Pernambuca",
+        "OpK": "Vila Industrial",
+        "OpL": "Canaãn",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Arraial do Cabo"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.6",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Praia Do Siqueira",
+        "OpB": "Gamboa",
+        "OpC": "Tamoios",
+        "OpD": "Passagem",
+        "OpE": "Centro",
+        "OpF": "Peró",
+        "OpG": "Jacaré",
+        "OpH": "Ponta do Ambrósio",
+        "OpI": "Guarani",
+        "OpJ": "Portinho",
+        "OpK": "São Cristovão",
+        "OpL": "Caminho de Buzios",
+        "OpM": "Itajuru",
+        "OpN": "Jardim Esperança",
+        "OpO": "Braga",
+        "OpP": "Jardim Flamboyant",
+        "OpQ": "Jardim Caiçara",
+        "OpR": "Unamar",
+        "OpS": "Maria Joaquina",
+        "OpT": "São Pedro da Aldeia",
+        "OpU": "Bairro Manoel Conea",
+        "OpV": "Rasa",
+        "OpX": "Barco Silvia",
+        "OpW": "Porto do Carro",
+        "OpY": "Monte Alegre",
+        "OpZ": "Palmeiras",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Cabo Frio"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.7",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Barra Do Furado",
+        "OpB": "Centro Quissamã",
+        "OpC": "Caxias",
+        "OpD": "Ribeira",
+        "OpE": "Visgueiro",
+        "OpF": "Estrada do Machado",
+        "OpG": "Canto de Santo Antônio",
+        "OpH": "Matias",
+        "OpI": "Beira da Lagoa",
+        "OpJ": "Lagoa Feia",
+        "OpK": "Santa Catarina",
+        "OpL": "Alto Alegre",
+        "OpM": "Penha",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Quissamã"
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.2",
+        "title": "Qual o seu nome?",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.2.1",
+        "title": "Você tem apelido?",
+        "OpA": "Não",
+        "OpOther": "Sim. Qual?",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.3",
+        "title": "Qual o endereço de sua residência (colocar ponto de referência)?",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.4.1",
+        "title": "Por favor, nós iremos anotar um número de telefone somente para que a supervisão da pesquisa possa confirmar a realização da entrevista. Por favor, qual o número de telefone para contato?",
+        "allowOnlyNumbers": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.4.2",
+        "title": "Você possui outro número de telefone?",
+        "OpA": "Não",
+        "OpOther": "Sim. Qual?",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.8",
+        "title": "Qual é o seu estado civil?",
+        "OpA": "Solteiro(a)",
+        "OpB": "Casado(a) no civil e no religioso",
+        "OpC": "Casado(a) só no civil",
+        "OpD": "Casado(a) só no religioso",
+        "OpE": "União consensual (vive junto sem ser casado(a))",
+        "OpF": "Desquitado(a)/divorciado(a)/separado(a) judicialmente",
+        "OpG": "Separado(a) sem ser judicialmente",
+        "OpH": "Viúvo",
+        "OpOther": "Outro. Especifique:"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.9",
+        "title": "O(A) senhor(a) tem filho(s)?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.9.1",
+        "title": "Sim. Quantos filhos o Sr. (Sra.) tem?",
+        "allowOnlyNumbers": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.9",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.10",
+        "title": "O(A) senhor(a) tem religião/culto?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.11",
+        "title": "Qual a sua religião/culto?",
+        "OpA": "Evangélica",
+        "OpB": "Umbanda",
+        "OpC": "Candomblé",
+        "OpD": "Espírita Kardecista",
+        "OpE": "Católica",
+        "OpF": "Judáica",
+        "OpG": "Budista",
+        "OpH": "Acredita em deus, mas não tem religião.",
+        "OpI": "É ateu/ não acredita em deus/ é agnóstico",
+        "OpOther": "Outros. Especifique:",
+        "dependencies": [
+          {
+            "dependencyID": "IS.10",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.12",
+        "title": "Em que ESTADO o(a) Sr.(Sra.) nasceu?",
+        "OpA": "Alagoas - AL",
+        "OpB": "Amapá - AP",
+        "OpC": "Amazonas - AM",
+        "OpD": "Bahia - BA",
+        "OpE": "Ceará - CE",
+        "OpF": "Espirito Santo - ES",
+        "OpG": "Goiás - GO",
+        "OpH": "Maranhão - MA",
+        "OpI": "Mato Grosso - MT",
+        "OpJ": "Mato Grosso do Sul - MS",
+        "OpK": "Minas Gerais - MG",
+        "OpL": "Pará - PA",
+        "OpM": "Paraíba - PB",
+        "OpN": "Paraná - PR",
+        "OpO": "Pernambuco - PE",
+        "OpP": "Piauí - PI",
+        "OpQ": "Rio de Janeiro - RJ",
+        "OpR": "Rio Grande do Norte - RN",
+        "OpS": "Roraima - RR",
+        "OpT": "Santa Catarina - SC",
+        "OpU": "São Paulo - SP",
+        "OpV": "Tocantins - TO",
+        "OpX": "Acre - AC",
+        "OpW": "Sergipe - SE",
+        "OpY": "Rio Grande do Sul - RS",
+        "OpZ": "Rondônia - RO"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.13",
+        "title": "Em que CIDADE o(a) Sr.(Sra.) nasceu?"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.14",
+        "title": "Em qual CIDADE o(a) Sr.(Sra.) passou mais tempo de sua vida até a idade de 15 anos?"
+      },
+      {
+        "type": "Table",
+        "id": "IS.15",
+        "title": "A quanto tempo o(a) Sr.(Sra.) reside, sem interrupção, nesta localidade?",
+        "table": [
+          {
+            "type": "EditQuestion",
+            "id": "IS.15.1",
+            "title": "Anos (usar dois dígitos exemplo: 01 -> um ano):",
+            "allowOnlyNumbers": true
+          },
+          {
+            "type": "EditQuestion",
+            "id": "IS.15.2",
+            "title": "Meses (usar dois dígitos exemplo: 01 -> um mês):",
+            "allowOnlyNumbers": true
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.16",
+        "title": "Qual foi a principal razão que o (a) levou a permanecer ou mudar-se para esta localidade?",
+        "OpA": "Oportunidades de Trabalho",
+        "OpB": "Estar com a família",
+        "OpC": "Melhor Educação",
+        "OpD": "Para tratar da saúde/doença",
+        "OpE": "Ter acesso á políticas públicas/programas sociais locais",
+        "OpF": "Porque gosta do local",
+        "OpG": "Por falta de outras opções",
+        "OpOther": "Outros. Anotar:"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.17",
+        "title": "Onde o(a) Sr.(Sra.) morava há 5 anos atrás (em outubro de 2009)?",
+        "OpA": "Neste bairro.",
+        "OpB": "Outro bairro neste município.",
+        "OpC": "Outro município.",
+        "OpD": "Outro estado."
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.17.1",
+        "title": "Outro bairro neste município. Qual?",
+        "dependencies": [
+          {
+            "dependencyID": "IS.17",
+            "dependencyValue": "Outro bairro neste município."
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.17.2",
+        "title": "Outro município. Qual?",
+        "dependencies": [
+          {
+            "dependencyID": "IS.17",
+            "dependencyValue": "Outro município."
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.17.3",
+        "title": "Outro estado. Qual?",
+        "OpA": "Alagoas - AL",
+        "OpB": "Amapá - AP",
+        "OpC": "Amazonas - AM",
+        "OpD": "Bahia - BA",
+        "OpE": "Ceará - CE",
+        "OpF": "Espirito Santo - ES",
+        "OpG": "Goiás - GO",
+        "OpH": "Maranhão - MA",
+        "OpI": "Mato Grosso - MT",
+        "OpJ": "Mato Grosso do Sul - MS",
+        "OpK": "Minas Gerais - MG",
+        "OpL": "Pará - PA",
+        "OpM": "Paraíba - PB",
+        "OpN": "Paraná - PR",
+        "OpO": "Pernambuco - PE",
+        "OpP": "Piauí - PI",
+        "OpQ": "Rio de Janeiro - RJ",
+        "OpR": "Rio Grande do Norte - RN",
+        "OpS": "Roraima - RR",
+        "OpT": "Santa Catarina - SC",
+        "OpU": "São Paulo - SP",
+        "OpV": "Tocantins - TO",
+        "OpX": "Acre - AC",
+        "OpW": "Sergipe - SE",
+        "OpY": "Rio Grande do Sul - RS",
+        "OpZ": "Rondônia - RO",
+        "dependencies": [
+          {
+            "dependencyID": "IS.17",
+            "dependencyValue": "Outro estado."
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "02 Bloco de Caracterização Familiar": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ22",
+        "behavior": "(ATENÇÃO!!) Explicar para o entrevistado: Todos esses dados serão usados estatisticamente e os nomes não serão divulgados.",
+        "title": "02 Bloco de Caracterização Familiar"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ2",
+        "behavior": "Ler para todos",
+        "title": "Neste bloco nós falaremos um pouco sobre todas as pessoas que moram na sua casa e que compõem a sua família."
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.1",
+        "title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr.(Sra.)?",
+        "allowOnlyNumbers": true,
+        "notShowENES": true
+      },
+      {
+        "type": "PersonCreatorQuestion",
+        "id": "mb1",
+        "title": "Nome Completo:",
+        "notShowENES": true,
+        "replication": "CF.1",
+        "reference": "IS.2"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.2",
+        "title": "Qual o grau de parentesco de [ ]?",
+        "OpA": "Esposo/Esposa",
+        "OpB": "Filho/Filha/Enteado",
+        "OpC": "Genro/Nora",
+        "OpD": "Pai/Mãe/Padrasto/Madrasta",
+        "OpE": "Sogro/a",
+        "OpF": "Neto/a",
+        "OpG": "Bisneto/a",
+        "OpH": "Irmão/Irmã",
+        "OpI": "Avô/Avó",
+        "OpJ": "Outro Parente",
+        "OpK": "Agregado",
+        "OpL": "Empregado Doméstico/a",
+        "OpM": "Parente do empregado doméstico.",
+        "replication": "CF.1"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.3",
+        "title": "Qual o sexo de [ ]?",
+        "OpA": "Masculino",
+        "OpB": "Feminino",
+        "notShowENES": true,
+        "replication": "CF.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.1.4",
+        "title": "Qual a idade de [ ]?",
+        "allowOnlyNumbers": true,
+        "notShowENES": true,
+        "replication": "CF.1"
+      },
+      {
+        "type": "MoreThanQuestion",
+        "id": "CF.1.4.1",
+        "value": 18,
+        "reference": "CF.1.4",
+        "replication": "CF.1"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.5",
+        "title": "Qual a cor de [ ]?",
+        "OpA": "Branca",
+        "OpB": "Preta",
+        "OpC": "Parda",
+        "OpD": "Amarela",
+        "OpE": "Indígena",
+        "OpF": "Branca (respondido por outrem)",
+        "OpG": "Preta (respondido por outrem)",
+        "OpH": "Parda (respondido por outrem)",
+        "OpI": "Amarela (respondido por outrem)",
+        "OpJ": "Indígena (respondido por outrem)",
+        "replication": "CF.1"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.1.6",
+        "title": "Qual o último grau/ano/série em que [ ] foi aprovado?",
+        "OpA": "Nunca estudou e não sabe ler nem escrever.",
+        "OpB": "Nunca estudou, mas sabe ler e escrever.",
+        "OpC": "Ensino fundamental incompleto",
+        "OpD": "Ensino fundamental completo",
+        "OpE": "Ensino médio incompleto",
+        "OpF": "Ensino médio completo",
+        "OpG": "Ensino superior incompleto",
+        "OpH": "Ensino superior completo",
+        "OpI": "Pós-graduação",
+        "OpJ": "Creche",
+        "OpK": "Pré-escola",
+        "OpOther": "Outro. Especifique:",
+        "replication": "CF.1"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.7",
+        "title": "Atualmente [ ] frequenta a escola?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "replication": "CF.1"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.1.8",
+        "title": "[ ] faz algum curso profissionalizante?",
+        "OpA": "Não",
+        "OpOther": "Sim. Qual? Especifique",
+        "replication": "CF.1"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.1.9",
+        "title": "[ ] já fez algum curso profissionalizante?",
+        "OpA": "Não",
+        "OpOther": "Sim. Qual? Especifique",
+        "replication": "CF.1"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.1.11",
+        "title": "[ ] gostaria de fazer algum curso profissionalizante?",
+        "OpA": "Não",
+        "OpOther": "Sim. Qual?",
+        "replication": "CF.1"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.10",
+        "title": "Qual a situação de [ ] no mercado de trabalho? (Ler as opções)",
+        "OpA": "Empregado com carteira assinada",
+        "OpB": "Empregado sem carteira assinada (recebe salário)",
+        "OpC": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)",
+        "OpD": "Desempregado",
+        "OpE": "Bolsista",
+        "OpF": "Aposentado/pensionista",
+        "OpG": "Aposentado como pescador (inativo)",
+        "OpH": "Aposentado como pescador (em atividade)",
+        "OpI": "Desocupado",
+        "OpJ": "Estagiário",
+        "OpK": "Funcionário público",
+        "OpL": "Ajudante familiar sem remuneração",
+        "OpM": "Empreendedor (dono de barco, atravessador)",
+        "OpN": "Adolescente aprendiz (menor aprendiz)",
+        "replication": "CF.1",
+        "dependency": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.11",
+        "title": "Qual a ocupação principal ou a profissão de [ ]?",
+        "OpA": "Pescador(a) (camarada)",
+        "OpB": "Mestre(a)",
+        "OpC": "Catador(a)",
+        "OpD": "Aquicultor(a)",
+        "OpE": "Mantenedor(a) de barco",
+        "OpF": "Dono(a) de barco que não pesca",
+        "OpG": "Dono(a) de barco e pescador(a)",
+        "OpH": "Gelador(a)",
+        "OpI": "Marisqueiro(a)",
+        "OpJ": "Descascador(a)",
+        "OpK": "Filetador(a)",
+        "OpL": "Cozinheiro(a) de barco de pesca",
+        "OpM": "Pescador(a) de canoa",
+        "OpN": "Atravessador(a)",
+        "OpO": "Mantenedor(a) de petrechos de pesca",
+        "OpP": "Pescador(a) afastado(a) temporariamente da atividade",
+        "OpOther": "Outro. Especifique:",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado com carteira assinada"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado sem carteira assinada (recebe salário)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Desempregado"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Bolsista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado/pensionista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (inativo)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (em atividade)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Estagiário"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Funcionário público"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Ajudante familiar sem remuneração"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empreendedor (dono de barco, atravessador)"
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.12",
+        "title": "Qual o rendimento mensal de [ ] nesta ocupação principal? (referência: salário mínimo = R$788) [Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador.]",
+        "allowOnlyNumbers": true,
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) (camarada)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mestre(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Catador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Aquicultor(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de barco"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Dono(a) de barco que não pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Dono(a) de barco e pescador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Gelador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Marisqueiro(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Descascador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Filetador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Cozinheiro(a) de barco de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) de canoa"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Atravessador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "OpOther"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.13.0",
+        "title": "[ ] possui outra ocupação?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "replication": "CF.1",
+        "dependency": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.13",
+        "title": "Qual é a segunda ocupação de [ ]?",
+        "OpA": "Pescador(a) (camarada)",
+        "OpB": "Mestre(a)",
+        "OpC": "Catador(a)",
+        "OpD": "Aquicultor(a)",
+        "OpE": "Mantenedor(a) de barco",
+        "OpF": "Dono(a) de barco que não pesca",
+        "OpG": "Cozinheiro(a) de barco de pesca",
+        "OpH": "Gelador",
+        "OpI": "Marisqueiro",
+        "OpJ": "Descascador(a)",
+        "OpK": "Filetador(a)",
+        "OpL": "Dono(a) de barco e pescador(a)",
+        "OpM": "Pescador(a) de canoa",
+        "OpN": "Atravessador(a)",
+        "OpO": "Mantenedor(a) de petrechos de pesca",
+        "OpP": "Pescador(a) afastado(a) temporariamente da atividade",
+        "OpOther": "Outro. Especifique:",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.13.0",
+            "dependencyValue": "Sim"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado com carteira assinada"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado sem carteira assinada (recebe salário)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Desempregado"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Bolsista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado/pensionista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (inativo)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (em atividade)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Estagiário"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Funcionário público"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Ajudante familiar sem remuneração"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empreendedor (dono de barco, atravessador)"
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.14",
+        "title": "E qual é o rendimento de [ ] nesta outra ocupação?",
+        "allowOnlyNumbers": true,
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Pescador(a) (camarada)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Mestre(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Catador(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Aquicultor(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Mantenedor(a) de barco"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Dono(a) de barco que não pesca"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Cozinheiro(a) de barco de pesca"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Gelador"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Marisqueiro"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Descascador(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Filetador(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Dono(a) de barco e pescador(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Pescador(a) de canoa"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Atravessador(a)"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+          },
+          {
+            "dependencyID": "CF.13",
+            "dependencyValue": "OpOther"
+          }
+        ]
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.15",
+        "title": "[ ] possui algum benefício social? Qual?",
+        "OpA": "Bolsa família",
+        "OpB": "Brasil Carinhoso",
+        "OpC": "PETI",
+        "OpD": "BPC",
+        "OpE": "Renda Melhor",
+        "OpF": "Renda Melhor Jovem",
+        "OpG": "Renda mínima",
+        "OpH": "Cheque alimentação",
+        "OpI": "Vale Cidadão",
+        "OpJ": "Guarda Mirim",
+        "OpK": "Cartão social da dignidade (100 reais)",
+        "OpL": "Cartão Cidadão - SJB",
+        "OpM": "Outro",
+        "OpN": "Nenhum",
+        "replication": "CF.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.15.1",
+        "title": "Especifique qual benefício social [ ] recebe?",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Outro"
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.16",
+        "title": "Valor total destes benefícios?",
+        "allowOnlyNumbers": true,
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Bolsa família"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Brasil Carinhoso"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "PETI"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "BPC"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Renda Melhor"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Renda Melhor Jovem"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Renda mínima"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Cheque alimentação"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Vale Cidadão"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Guarda Mirim"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Cartão social da dignidade (100 reais)"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Cartão Cidadão - SJB"
+          },
+          {
+            "dependencyID": "CF.15",
+            "dependencyValue": "Outro"
+          }
+        ]
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.17",
+        "title": "[ ] possui alguma deficiência? Qual?",
+        "OpA": "Não",
+        "OpB": "Visual",
+        "OpC": "Intelectual/cognitiva/mental",
+        "OpD": "Auditiva",
+        "OpE": "Motora",
+        "OpF": "Múltipla",
+        "replication": "CF.1"
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.18",
+        "title": "[ ] tem algum problema de saúde? Qual?",
+        "OpA": "Não",
+        "OpB": "Hipertensão",
+        "OpC": "Diabetes",
+        "OpD": "Infecções",
+        "OpE": "Problemas de coluna (hérnias e contusões)",
+        "OpF": "Varizes, artroses, reumatismos, osteoporoses",
+        "OpG": "Lesões causadas por esforço repetitivo",
+        "OpH": "Problemas oftálmicos",
+        "OpI": "Problemas respiratórios",
+        "OpJ": "Micoses",
+        "OpK": "Câncer",
+        "OpL": "Alergias",
+        "OpM": "Cardiopatias",
+        "OpN": "Problemas renais",
+        "OpO": "Outros",
+        "replication": "CF.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.18.1",
+        "title": "Especifique o problema de saúde que [ ] tem.",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Outros"
+          }
+        ]
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.19",
+        "title": "Em qual unidade de saúde [ ] é assistido/atendido?",
+        "OpA": "Posto de saúde",
+        "OpB": "Hospital no município",
+        "OpC": "Hospital fora do município",
+        "OpD": "Tratamento domiciliar",
+        "OpE": "Clínica particular no município",
+        "OpF": "Clínica particular fora do município",
+        "OpG": "Não recebe tratamento",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Hipertensão"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Diabetes"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Infecções"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Problemas de coluna (hérnias e contusões)"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Varizes, artroses, reumatismos, osteoporoses"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Lesões causadas por esforço repetitivo"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Problemas oftálmicos"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Problemas respiratórios"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Micoses"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Câncer"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Alergias"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Cardiopatias"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Problemas renais"
+          },
+          {
+            "dependencyID": "CF.18",
+            "dependencyValue": "Outros"
+          }
+        ]
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.20",
+        "behavior": "Agora irei ler uma lista de atividades relacionadas a pesca. Por favor, indique para cada membro de sua família se ele(a) exerce ou não essas atividades.",
+        "title": "Indique atividades relacionadas a pesca que são exercidas por [ ]:",
+        "OpA": "Pesca",
+        "OpB": "Venda",
+        "OpC": "Cata",
+        "OpD": "Filetagem",
+        "OpE": "Extração de casca",
+        "OpF": "Preparo/Cozimento",
+        "OpG": "Aquicultura",
+        "OpH": "Maricultura",
+        "OpI": "Transporte",
+        "OpJ": "Atravessador",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.21.0",
+        "title": "Gostaria agora de falar um pouco sobre seus pais. Caso não se sinta confortável em dar as informações, por favor, diga e eu irei pular para o próximo bloco.",
+        "OpA": "Sim. Continuar respondendo",
+        "OpB": "Não. Pular para o próximo Bloco.",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.21",
+        "title": "Por quem o(a) Sr.(Sra.) foi criado(a)?",
+        "OpA": "Pai e mãe",
+        "OpB": "Só mãe",
+        "OpC": "Só pai",
+        "OpD": "Irmão(s) ou irmã(s)",
+        "OpE": "Tios",
+        "OpF": "Avós",
+        "OpG": "Cresceu em abrigo ou orfanato",
+        "OpOther": "Outro responsável. Anotar:",
+        "dependencies": [
+          {
+            "dependencyID": "CF.21.0",
+            "dependencyValue": "Sim. Continuar respondendo"
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "CF.22.0",
+        "title": "Responsável Masculino",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.22",
+            "title": "Até que série/grau seu RESPONSÁVEL MASCULINO cursou a escola?",
+            "OpA": "Nunca estudou e não sabe ler",
+            "OpB": "Nunca estudou mas sabe ler",
+            "OpC": "Ensino fundamental incompleto",
+            "OpD": "Ensino fundamental completo",
+            "OpE": "Ensino médio incompleto",
+            "OpF": "Ensino médio completo",
+            "OpG": "Ensino superior incompleto",
+            "OpH": "Ensino superior completo",
+            "OpI": "Curso técnico",
+            "OpJ": "Tecnólogo",
+            "OpK": "Especialização",
+            "OpL": "Pós-graduação"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.23",
+            "title": "Qual era o principal trabalho remunerado do seu RESPONSÁVEL MASCULINO quando o(a) Sr.(Sra.) tinha 15 anos?",
+            "OpA": "Pescador",
+            "OpB": "Mestre",
+            "OpC": "Catador",
+            "OpD": "Aquicultor",
+            "OpE": "Manutenção de barco e petrechos de pesca",
+            "OpF": "Dono do barco",
+            "OpG": "Agricultor",
+            "OpH": "Pedreiro",
+            "OpI": "Eletricista",
+            "OpJ": "Comerciante",
+            "OpK": "Artesão",
+            "OpL": "Ele era aposentado/pensionista",
+            "OpM": "Desempregado",
+            "OpN": "Manutenção de petrechos de pesca",
+            "OpOther": "Outro. Especifique:"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.24",
+            "behavior": "Ler Opções",
+            "title": "Neste trabalho ele era?",
+            "OpA": "Empregado",
+            "OpB": "Autônomo",
+            "OpC": "Empregador",
+            "OpOther": "Outro. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Pescador"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Mestre"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Catador"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Aquicultor"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Manutenção de barco e petrechos de pesca"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Agricultor"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Pedreiro"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Eletricista"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Comerciante"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "Artesão"
+              },
+              {
+                "dependencyID": "CF.23",
+                "dependencyValue": "OpOther"
+              }
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "CF.21.0",
+            "dependencyValue": "Sim. Continuar respondendo"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Pai e mãe"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Só pai"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Irmão(s) ou irmã(s)"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Tios"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Avós"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Cresceu em abrigo ou orfanato"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "OpOther"
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "CF.25.0",
+        "title": "Responsável Feminino",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.25",
+            "title": "Até que série/grau seu RESPONSÁVEL FEMININO cursou a escola?",
+            "OpA": "Nunca estudou e não sabe ler",
+            "OpB": "Nunca estudou mas sabe ler",
+            "OpC": "Ensino fundamental incompleto",
+            "OpD": "Ensino fundamental completo",
+            "OpE": "Ensino médio incompleto",
+            "OpF": "Ensino médio completo",
+            "OpG": "Ensino superior incompleto",
+            "OpH": "Ensino superior completo",
+            "OpI": "Curso técnico",
+            "OpJ": "Tecnólogo",
+            "OpK": "Especialização",
+            "OpL": "Pós-graduação"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.26",
+            "title": "Qual era o principal trabalho remunerado da sua RESPONSÁVEL FEMININA quando o(a) Sr.(Sra.) tinha 15 anos?",
+            "OpA": "Pescadora",
+            "OpB": "Mestre",
+            "OpC": "Catadora",
+            "OpD": "Aquicultora",
+            "OpE": "Manutenção de barco",
+            "OpF": "Dona do barco",
+            "OpG": "Agricultora",
+            "OpH": "Pedreira",
+            "OpI": "Marisqueira",
+            "OpJ": "Comerciante",
+            "OpK": "Artesã",
+            "OpL": "Ela era aposentada/pensionista",
+            "OpM": "Desempregada",
+            "OpN": "Do lar",
+            "OpO": "Serviços relacionados a pesca (filetadora, descascadora, etc.)",
+            "OpP": "Manutenção de petrechos de pesca",
+            "OpOther": "Outro. Especifique:"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.27",
+            "behavior": "Ler Opções",
+            "title": "Neste trabalho ela era?",
+            "OpA": "Empregada",
+            "OpB": "Autônoma",
+            "OpC": "Empregadora",
+            "OpD": "Do lar",
+            "OpOther": "Outro. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Pescadora"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Mestre"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Catadora"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Aquicultora"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Manutenção de barco"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Agricultora"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Pedreira"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Marisqueira"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Comerciante"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Artesã"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Do lar"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "Serviços relacionados a pesca (filetadora, descascadora, etc.)"
+              },
+              {
+                "dependencyID": "CF.26",
+                "dependencyValue": "OpOther"
+              }
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "CF.21.0",
+            "dependencyValue": "Sim. Continuar respondendo"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Pai e mãe"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Só mãe"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Irmão(s) ou irmã(s)"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Tios"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Avós"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "Cresceu em abrigo ou orfanato"
+          },
+          {
+            "dependencyID": "CF.21",
+            "dependencyValue": "OpOther"
+          }
+        ]
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.28",
+        "title": "A quantas gerações a sua família está na pesca?",
+        "OpA": "Pais",
+        "OpB": "Avós",
+        "OpC": "Bisavós",
+        "OpD": "Trisavós"
+      }
+    ]
+  },
+
+  {
+    "11 Bloco Mala Direta": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ37",
+        "behavior": "",
+        "title": "11 Módulo de Mala Direta"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "MD.1",
+        "behavior": "",
+        "title": "O(A) Sr.(Sra.) deseja receber informações e notícias sobre o projeto PESCARTE?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.1",
+        "behavior": "",
+        "title": "Endereço completo (com CEP):",
+        "notShowENES": true,
+        "reference": "IS.3"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.2",
+        "behavior": "",
+        "title": "Telefone:",
+        "notShowENES": true,
+        "reference": "IS.4.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.3",
+        "behavior": "",
+        "title": "Email:",
+        "notShowENES": true
+      }
+    ]
+  }
+]

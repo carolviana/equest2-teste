@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Carol/AndroidStudioProjects/NeweQuest/app/src/main/res/layout/activity_export.xml" value="0.212890625" />
+        <entry key="..\:/Users/Carol/AndroidStudioProjects/NeweQuest/app/src/main/res/layout/fragment_questionnaire_download.xml" value="0.212890625" />
+        <entry key="..\:/Users/ipead/StudioProjects/CAROL-EQUEST/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.311" />
+        <entry key="..\:/Users/ipead/StudioProjects/CAROL-EQUEST/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/ipead/StudioProjects/CAROL-EQUEST/app/src/main/res/layout/activity_select_questionnaire.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/ipead/StudioProjects/CAROL-EQUEST/app/src/main/res/layout/fragment_questionnaire_download.xml" value="0.25" />
+        <entry key="..\:/Users/ipead/StudioProjects/CAROL-EQUEST/app/src/main/res/layout/item_questionnaire_download_entry.xml" value="0.36875" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+</project>

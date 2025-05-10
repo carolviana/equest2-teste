@@ -1,0 +1,1902 @@
+[
+  {
+    "01 Bloco Identificação Socioeconômica/ Características Demográficas": [
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.9",
+        "behavior": "",
+        "title": "IS.9 - O(A) senhor(a) tem filho(s)?",
+        "OpB": "Não",
+        "OpOther": "Sim. Quantos?",
+        "notShowENES": true
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.20.1",
+        "behavior": "Agora irei ler uma lista de atividades relacionadas a pesca. Por favor, indique para cada membro de sua família se ele(a) exerce ou não essas atividades.",
+        "title": "Indique atividades relacionadas a pesca que são exercidas por [ ]:",
+        "OpA": "Pesca",
+        "OpB": "Venda",
+        "OpC": "Cata",
+        "OpD": "Filetagem",
+        "OpE": "Extração de casca",
+        "OpF": "Preparo/Cozimento",
+        "OpG": "Aquicultura",
+        "OpH": "Maricultura",
+        "OpI": "Transporte",
+        "OpJ": "Atravessador"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ21",
+        "behavior": "NAQ21 - (ATENÇÃO!!) Explicar para o entrevistado: Todos esses dados serão usados estatisticamente e os nomes não serão divulgados.",
+        "title": "01 Bloco Identificação Socioeconômica / Características Demográficas"
+      },
+      {
+        "type": "CityCheckQuestion",
+        "id": "IS.1",
+        "behavior": "IS.1 - Preenchido pelo entrevistador",
+        "title": "Município do estudo",
+        "OpA": "Campos dos Goytacazes",
+        "OpB": "Macaé",
+        "OpC": "São Francisco do Itabapoana",
+        "OpD": "São João da Barra",
+        "OpE": "Arraial do Cabo",
+        "OpF": "Cabo Frio",
+        "OpG": "Quissamã",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.1",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.1 - Localidade/comunidade do estudo",
+        "OpA": "Farol De São Tomé",
+        "OpB": "Terminal Pesqueiro",
+        "OpC": "Coroa Grande",
+        "OpD": "Parque Dos Prazeres",
+        "OpE": "Lagoa Do Vigário",
+        "OpF": "Ponta Grossa Dos Fidalgos",
+        "OpG": "Lagoa do Campelo",
+        "OpH": "Lagoa de Cima",
+        "OpI": "Pernambuca",
+        "OpJ": "Barra Seca",
+        "OpK": "Imbé",
+        "OpL": "Carvão",
+        "OpM": "Canal das Flechas",
+        "OpN": "Matadouro",
+        "OpO": "Tocos",
+        "OpP": "Mussurepe",
+        "OpQ": "Parque Aldeia",
+        "OpR": "Santa Ana",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Campos dos Goytacazes"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.2",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.2 - Localidade/comunidade do estudo",
+        "OpA": "Barra de Macaé",
+        "OpB": "Nova Holanda",
+        "OpC": "Nova Esperança",
+        "OpD": "Brasília",
+        "OpE": "Aeroporto",
+        "OpF": "Fronteira",
+        "OpG": "Malvina",
+        "OpH": "Engenho da Praia",
+        "OpI": "Rio das Ostras",
+        "OpJ": "Lagomar",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Macaé"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.3",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.3 - Localidade/comunidade do estudo",
+        "OpA": "Gargaú",
+        "OpB": "Guaxindiba",
+        "OpC": "Barra De Itabapoana",
+        "OpD": "Barrinha",
+        "OpE": "Buena",
+        "OpF": "Lagoa Doce",
+        "OpG": "Deserto Feliz",
+        "OpH": "Máquina",
+        "OpI": "Santa Clara",
+        "OpJ": "Campo Novo",
+        "OpK": "Cacimbas",
+        "OpL": "Muritiba",
+        "OpM": "Sossego",
+        "OpN": "Ilha dos Mineiros",
+        "OpO": "Praia do Sonho",
+        "OpP": "Tatagiba",
+        "OpQ": "Manguinhos",
+        "OpR": "Lagoa Feia",
+        "OpS": "Retiro",
+        "OpT": "Guriri",
+        "OpU": "Guariximá",
+        "OpV": "Praça João Pessoa",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "São Francisco do Itabapoana"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.4",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.4 - Localidade/comunidade do estudo",
+        "OpA": "Atafona",
+        "OpB": "Açu",
+        "OpC": "Quixaba",
+        "OpD": "Grussaí",
+        "OpE": "Azeitona",
+        "OpF": "Barcelos",
+        "OpG": "Cajueiro",
+        "OpH": "Degredo",
+        "OpI": "Mato Escuro",
+        "OpJ": "Alto do Cardeiro",
+        "OpK": "Capela de São Pedro",
+        "OpL": "Sabonete",
+        "OpM": "Agua Preta",
+        "OpN": "Vila Esperança",
+        "OpO": "Chatuba",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "São João da Barra"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.5",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.5 - Localidade/comunidade do estudo",
+        "OpA": "Figueira",
+        "OpB": "Prainha",
+        "OpC": "Porto Do Forno ",
+        "OpD": "Praia Dos Anjos",
+        "OpE": "Praia Grande",
+        "OpF": "Praia do Pontal",
+        "OpG": "Monte Alto",
+        "OpH": "Caiçara",
+        "OpI": "Sabiá",
+        "OpJ": "Pernambuca",
+        "OpK": "Vila Industrial",
+        "OpL": "Canaãn",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Arraial do Cabo"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.6",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.6 - Localidade/comunidade do estudo",
+        "OpA": "Praia Do Siqueira",
+        "OpB": "Gamboa",
+        "OpC": "Tamoios",
+        "OpD": "Passagem",
+        "OpE": "Centro",
+        "OpF": "Peró",
+        "OpG": "Jacaré",
+        "OpH": "Ponta do Ambrósio",
+        "OpI": "Guarani",
+        "OpJ": "Portinho",
+        "OpK": "São Cristovão",
+        "OpL": "Caminho de Buzios",
+        "OpM": "Itajuru",
+        "OpN": "Jardim Esperança",
+        "OpO": "Braga",
+        "OpP": "Jardim Flamboyant",
+        "OpQ": "Jardim Caiçara",
+        "OpR": "Unamar",
+        "OpS": "Maria Joaquina",
+        "OpT": "São Pedro da Aldeia",
+        "OpU": "Bairro Manoel Conea",
+        "OpV": "Rasa",
+        "OpX": "Barco Silvia",
+        "OpW": "Porto do Carro",
+        "OpY": "Monte Alegre",
+        "OpZ": "Palmeiras",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Cabo Frio"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.7",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "IS.1.7 - Localidade/comunidade do estudo",
+        "OpA": "Barra Do Furado",
+        "OpB": "Centro Quissamã",
+        "OpC": "Caxias",
+        "OpD": "Ribeira",
+        "OpE": "Visgueiro",
+        "OpF": "Estrada do Machado",
+        "OpG": "Canto de Santo Antônio",
+        "OpH": "Matias",
+        "OpI": "Beira da Lagoa",
+        "OpJ": "Lagoa Feia",
+        "OpK": "Santa Catarina",
+        "OpL": "Alto Alegre",
+        "OpM": "Penha",
+        "OpOther": "Outros.",
+        "notShowENES": true,
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Quissamã"
+          }
+        ]
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.2.1",
+        "behavior": "",
+        "title": "IS.2.1 - Qual o seu nome?",
+        "notShowENES": true
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.2.2",
+        "behavior": "",
+        "title": "IS.2.2 - Você tem apelido?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "OpOther": "Sim. Qual?",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.3",
+        "behavior": "",
+        "title": "IS.3 - Qual o endereço de sua residência (colocar ponto de referência)?",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "IS.4.1",
+        "behavior": "",
+        "title": "IS.4.1 - Por favor, nós iremos anotar um número de telefone somente para que a supervisão da pesquisa possa confirmar a realização da entrevista. Por favor, qual o número de telefone para contato?",
+        "allowOnlyNumbers": true
+      }
+
+    ]
+  },
+
+  {
+    "02 Bloco de Caracterização Familiar": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ2",
+        "behavior": "Ler para todos",
+        "title": " Neste bloco nós falaremos um pouco sobre todas as pessoas que moram na sua casa e que compõem a sua família."
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.1",
+        "behavior": "",
+        "title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr.(Sra.)?",
+        "allowOnlyNumbers": true,
+        "notShowENES": true
+      },
+      {
+        "type": "PersonCreatorQuestion",
+        "id": "mb1",
+        "behavior": "",
+        "title": "Nome Completo:",
+        "notShowENES": true,
+        "replication": "CF.1",
+        "reference": "IS.2.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "CF.1.4",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "Qual a idade de [ ]?",
+        "allowOnlyNumbers": true,
+        "replication": "CF.1",
+        "notShowEnes": true
+      },
+      {
+        "type": "MoreThanQuestion",
+        "id": "CF.1.4.1",
+        "value": 18,
+        "reference": "CF.1.4",
+        "replication": "CF.1"
+      },
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.3",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "Qual o sexo de [ ]?",
+        "OpA": "Masculino",
+        "OpB": "Feminino",
+        "notShowENES": true,
+        "replication": "CF.1"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.10",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "Qual a situação de [ ] no mercado de trabalho? (Ler as opções)",
+        "OpA": "Empregado com carteira assinada",
+        "OpB": "Empregado sem carteira assinada (recebe salário)",
+        "OpC": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)",
+        "OpD": "Desempregado",
+        "OpE": "Bolsista",
+        "OpF": "Aposentado/pensionista",
+        "OpG": "Aposentado como pescador (inativo)",
+        "OpH": "Aposentado como pescador (em atividade)",
+        "OpI": "Desocupado",
+        "OpJ": "Estagiário",
+        "OpK": "Funcionário público",
+        "OpL": "Ajudante familiar sem remuneração",
+        "OpM": "Empreendedor (dono de barco, atravessador)",
+        "OpN": "Adolescente aprendiz (menor aprendiz)",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.11",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "Qual a ocupação principal ou a profissão de [ ]?",
+        "OpA": "Pescador(a) (camarada)",
+        "OpB": "Mestre(a)",
+        "OpC": "Catador(a)",
+        "OpD": "Aquicultor(a)",
+        "OpE": "Mantenedor(a) de barco",
+        "OpF": "Dono(a) de barco que não pesca",
+        "OpG": "Dono(a) de barco e pescador(a)",
+        "OpH": "Gelador(a)",
+        "OpI": "Marisqueiro(a)",
+        "OpJ": "Descascador(a)",
+        "OpK": "Filetador(a)",
+        "OpL": "Cozinheiro(a) de barco de pesca",
+        "OpM": "Pescador(a) de canoa",
+        "OpN": "Atravessador(a)",
+        "OpO": "Mantenedor(a) de petrechos de pesca",
+        "OpP": "Pescador(a) afastado(a) temporariamente da atividade",
+        "OpOther": "Outro. Especifique:",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado com carteira assinada"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado sem carteira assinada (recebe salário)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Desempregado"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Bolsista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado/pensionista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (inativo)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (em atividade)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Estagiário"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Funcionário público"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Ajudante familiar sem remuneração"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empreendedor (dono de barco, atravessador)"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "CF.13",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "[ ] possui outra ocupação? Qual?",
+        "OpA": "Não",
+        "OpB": "Pescador(a) (camarada)",
+        "OpC": "Mestre(a)",
+        "OpD": "Catador(a)",
+        "OpE": "Aquicultor(a)",
+        "OpF": "Mantenedor(a) de barco",
+        "OpG": "Dono(a) de barco que não pesca",
+        "OpH": "Cozinheiro(a) de barco de pesca",
+        "OpI": "Gelador",
+        "OpJ": "Marisqueiro",
+        "OpK": "Descascador(a)",
+        "OpL": "Filetador(a)",
+        "OpM": "Dono(a) de barco e pescador(a)",
+        "OpN": "Pescador(a) de canoa",
+        "OpO": "Atravessador(a)",
+        "OpP": "Mantenedor(a) de petrechos de pesca",
+        "OpQ": "Pescador(a) afastado(a) temporariamente da atividade",
+        "OpOther": "Outro. Especifique:",
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado com carteira assinada"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empregado sem carteira assinada (recebe salário)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Desempregado"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Bolsista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado/pensionista"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (inativo)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Aposentado como pescador (em atividade)"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Estagiário"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Funcionário público"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Ajudante familiar sem remuneração"
+          },
+          {
+            "dependencyID": "CF.10",
+            "dependencyValue": "Empreendedor (dono de barco, atravessador)"
+          },
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "03 Bloco Avaliação de Serviços Públicos (habitação, energia, água, esgoto)": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ23",
+        "behavior": "",
+        "title": "03 Bloco Avaliação de Serviços Públicos (habitação, energia, água, esgoto)"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ5",
+        "behavior": "",
+        "title": "E agora, gostaria de saber um pouco sobre as condições de sua habitação."
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASP.5",
+        "behavior": "",
+        "title": "Em sua casa tem água canalizada em pelo menos um cômodo?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASP.6",
+        "behavior": "Ler opções",
+        "title": "De onde vem a principal fonte de água que abastece a sua casa?",
+        "OpA": "Rede geral de distribuição",
+        "OpB": "Poço",
+        "OpC": "Nascente",
+        "OpD": "Carro-pipa",
+        "OpE": "Água da chuva armazenada em cisterna",
+        "OpF": "Água da chuva armazenada de outro modo",
+        "OpG": "Cedida por vizinho",
+        "OpH": "Rios, lagos e igarapés",
+        "OpOther": "Outro. Especifique:"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASP.7",
+        "behavior": "",
+        "title": "Além da principal, que outras formas de abastecimento de água são utilizadas em sua casa?",
+        "OpA": "Rede geral de distribuição",
+        "OpB": "Poço",
+        "OpC": "Nascente",
+        "OpD": "Carro-pipa",
+        "OpE": "Água da chuva armazenada em cisterna",
+        "OpF": "Água da chuva armazenada de outro modo",
+        "OpG": "Cedida por vizinho",
+        "OpH": "Rios, lagos e igarapés",
+        "OpI": "Não tenho nenhuma outra forma de abastecimento",
+        "OpOther": "Outro. Especifique:"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASP.8",
+        "behavior": "Ler as opções",
+        "title": "Com que frequência, geralmente, a água proveniente da rede geral está disponível em sua casa?",
+        "OpA": "Todo tempo",
+        "OpB": "Pelo menos uma vez ao dia",
+        "OpC": "Alguns períodos do dia",
+        "OpD": "De forma muito irregular",
+        "OpE": "Não tenho acesso á rede geral",
+        "OpF": "Falta só no verão",
+        "OpOther": "Outro. Especifique:",
+        "dependencies": [
+          {
+            "dependencyID": "ASP.7",
+            "dependencyValue": "Rede geral de distribuição"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASP.9",
+        "behavior": "Ler as Opções",
+        "title": "Como é tratada a água utilizada para beber em sua casa?",
+        "OpA": "Filtrada",
+        "OpB": "Fervida",
+        "OpC": "Mineral industrializada",
+        "OpD": "Tratada de outra forma",
+        "OpE": "Sem tratamento"
+      }
+    ]
+  },
+
+  {
+    "04 Bloco Avaliação de Serviços e Equipamentos Públicos (saúde, educação, assistência social, cultura, comunicação)": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ24",
+        "behavior": "",
+        "title": "04 Bloco Avaliação de Serviços e Equipamentos Públicos (saúde, educação, assistência social, cultura, comunicação)"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ6",
+        "behavior": "Ler para os(as) entrevistados(as)",
+        "title": "Agora vamos falar um pouco sobre os equipamentos e serviços de saúde, educação, assistência social, cultura e lazer, segurança existentes em sua localidade. Neste bloco iremos verificar a sua opinião sobre esses serviços e se você os utilizou nos últimos 12 meses."
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "ASEP.1",
+        "behavior": "",
+        "title": "Saúde"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASEP.1.2",
+        "behavior": "",
+        "title": "Já teve alguma doença que o(a) Sr.(Sra.) considera estar relacionada à sua atividade de trabalho na pesca?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "ASEP.1.3",
+        "behavior": "",
+        "title": "Das doenças abaixo quais o(a) Sr.(Sra.) considera estar possivelmente ligada a pesca?",
+        "OpA": "Hipertensão",
+        "OpB": "Diabetes",
+        "OpC": "Infecções ginecológicas",
+        "OpD": "Problema de coluna (hérnias e contusões)",
+        "OpE": "Varizes, artroses, reumatismos, osteoporoses",
+        "OpF": "Lesões causadas por esforço repetitivo",
+        "OpG": "Problemas oftálmicos (decorrentes de frequente exposição ao sol)",
+        "OpH": "Problemas respiratórios",
+        "OpI": "Micoses",
+        "OpJ": "Câncer de pele",
+        "OpK": "Descolamento das unhas (decorrente do beneficiamento do marisco)",
+        "OpL": "Drogas",
+        "OpM": "Tabagismo",
+        "OpN": "Alcoolismo",
+        "OpOther": "Outra. Especifique:",
+        "dependencies": [
+          {
+            "dependencyID": "ASEP.1.2",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "ASEP.1.4",
+        "behavior": "",
+        "title": "Por favor, nos últimos 12 meses, faleceu alguma pessoa que morava neste domicílio?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "notShowENES": true
+      },
+      {
+        "type": "Table",
+        "id": "ASEP.1.5",
+        "behavior": "Mortalidade",
+        "title": "Agora nós iremos tratar da questão da Mortalidade em razão de percebermos as causas de adoecimento e morte nas famílias de pescadores.",
+        "table": [
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.5.1",
+            "behavior": "",
+            "title": "Nome:",
+            "notShowENES": true
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "ASEP.1.5.3",
+            "behavior": "",
+            "title": "Sexo:",
+            "OpA": "Masculino",
+            "OpB": "Feminino"
+          },
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.5.4",
+            "behavior": "",
+            "title": "Idade ao falecer:",
+            "allowOnlyNumbers": true
+          },
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.5.5",
+            "behavior": "",
+            "title": "Causa da Morte:"
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "ASEP.1.4",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "ASEP.1.10",
+        "behavior": "",
+        "title": "Fecundidade - Em relação as mulheres desse domicílio, quais delas já tiveram filhos? (Por favor, inclua as informações também da dona de casa.)",
+        "table": [
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.10.1",
+            "behavior": "",
+            "title": "Nome da Mãe:",
+            "notShowENES": true
+          },
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.10.2",
+            "behavior": "",
+            "title": "Idade da Mãe:",
+            "allowOnlyNumbers": true
+          },
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.10.5",
+            "behavior": "",
+            "title": "N° total filhos tidos nascidos vivos (parturição):",
+            "allowOnlyNumbers": true
+          },
+          {
+            "type": "EditQuestion",
+            "id": "ASEP.1.10.4",
+            "behavior": "",
+            "title": "N° de Nascimentos vivos ocorridos nos últimos 12 meses:",
+            "allowOnlyNumbers": true
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.3",
+            "dependencyValue": "Feminino"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "05 Bloco Trabalho e Trajetória Profissional": [
+      {
+        "type": "RowQuestion",
+        "id": "TTP.0",
+        "behavior": "",
+        "title": "05 Bloco Trabalho e Trajetória Profissional",
+        "questions": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "TTP.10",
+            "behavior": "",
+            "title": "Em algum momento da sua vida, o(a) Sr.(Sra.) deixou de ser pescador(a)?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "EditQuestion",
+            "id": "TTP.11",
+            "behavior": "Anotar",
+            "title": "Por que o(a) Sr.(Sra.) deixou de ser pescador(a)?",
+            "dependencies": [
+              {
+                "dependencyID": "TTP.10",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "EditQuestion",
+            "id": "TTP.12",
+            "behavior": "Anotar",
+            "title": "Por quanto tempo o(a) Sr.(Sra.) permaneceu fora da pesca na última vez que o(a) Sr.(Sra.) saiu?",
+            "dependencies": [
+              {
+                "dependencyID": "TTP.10",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "EditQuestion",
+            "id": "TTP.13",
+            "behavior": "Anotar",
+            "title": "Qual a ocupação o(a) Sr.(Sra.) exerceu nesse período em que permaneceu fora da pesca?",
+            "dependencies": [
+              {
+                "dependencyID": "TTP.10",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "TTP.14",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) tem intenção de permanecer na profissão de pescador(a) artesanal?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "OpC": "Em dúvida"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "TTP.15",
+            "behavior": "",
+            "title": "Qual o principal motivo do(da) Sr.(Sra.) permanecer na profissão de pescador(a) artesanal?",
+            "OpA": "Independência (não ter patrão)",
+            "OpB": "Liberdade de horários",
+            "OpC": "É uma atividade lucrativa",
+            "OpD": "Trabalhar com família/amigos",
+            "OpE": "Tradição Familiar",
+            "OpF": "Porque gosta da profissão",
+            "OpG": "Porque só sei ser pescador",
+            "OpH": "Contato com a natureza",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "TTP.14",
+                "dependencyValue": "Sim"
+              },
+              {
+                "dependencyID": "TTP.14",
+                "dependencyValue": "Em dúvida"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "TTP.16",
+            "behavior": "",
+            "title": "Por que o(a) Sr.(Sra.) não tem a intenção de permanecer na profissão de pescador(a) artesanal?",
+            "OpA": "Atualmente não é uma boa atividade econômica",
+            "OpB": "Não proporciona um futuro melhor aos filhos",
+            "OpC": "Atividade desgastante",
+            "OpD": "Sem rendimento certo",
+            "OpE": "Profissão de risco",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "TTP.14",
+                "dependencyValue": "Não"
+              },
+              {
+                "dependencyID": "TTP.14",
+                "dependencyValue": "Em dúvida"
+              }
+            ]
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID":"CF.1.4.1",
+            "dependencyValue":"Sim"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) (camarada)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mestre(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Catador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Aquicultor(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de barco"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Dono(a) de barco e pescador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Gelador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Marisqueiro(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Descascador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Filetador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Cozinheiro(a) de barco de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) de canoa"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "06 Bloco Caracterização da Atividade Pesqueira": [
+      {
+        "type": "RowQuestion",
+        "id": "CAP.0",
+        "behavior": "",
+        "title": "06 Bloco Caracterização da Atividade Pesqueira",
+        "questions": [
+          {
+            "type": "NotAnswerableQuestion",
+            "id": "NAQ12",
+            "behavior": "",
+            "title": "Por favor, neste bloco iremos falar sobre as características da sua atividade na pesca. Gostaríamos de saber..."
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.36",
+            "behavior": "",
+            "title": "Se houvesse uma cooperativa/associação/pequena empresa ou unidade produtiva na sua comunidade administrada pelos pescadores locais e a universidade o(a) Sr.(Sra.) daria preferência da venda de seu pescado para ela?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.37",
+            "behavior": "",
+            "title": "Se o(a) Sr.(Sra.) fosse convidado(a) a fazer parte desta cooperativa/associação/pequena empresa ou unidade produtiva o(a) Sr.(Sra.) aceitaria?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "OpC": "Não sabe responder agora."
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.38",
+            "behavior": "Ler opções",
+            "title": "Por que o(a) Sr.(Sra.) aceitaria fazer parte desta cooperativa/associação/pequena empresa ou unidade produtiva?",
+            "OpA": "Porque permite a organização dos trabalhadores",
+            "OpB": "Barateia os custos da produção",
+            "OpC": "Garante o aumento da renda ",
+            "OpD": "Facilita o acesso a linhas de créditos",
+            "OpE": "Facilita o acesso ao mercado ",
+            "OpF": "Garante a competitividade no mercado",
+            "OpG": "Evitaria a venda para o(a) atravessador(a)",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "CAP.37",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.39",
+            "behavior": "",
+            "title": "Por que o(a) Sr.(Sra.) não aceitaria fazer parte desta cooperativa/associação/pequena empresa ou unidade produtiva?",
+            "OpA": "Porque cooperativa/associação/indústria geram conflitos",
+            "OpB": "Porque desconhece o papel de uma cooperativa/associação/indústria",
+            "OpC": "Porque não gosta de desenvolver trabalho coletivo",
+            "OpD": "Prefere manter sua autonomia/independência",
+            "OpE": "Porque não vê benefícios em se associar numa cooperativa/associação/pequena empresa ou unidade produtiva",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "CAP.37",
+                "dependencyValue": "Não"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.40",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) gostaria que seu(sua) filho(a) participasse desta cooperativa/associação/pequena empresa ou unidade produtiva?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CAP.41",
+            "behavior": "Ler opções",
+            "title": "Em relação a cooperativa/associação/pequena empresa ou unidade produtiva, que tipo de projeto o senhor teria mais interesse: de produção ou de beneficiamento?",
+            "OpA": "Produção (repovoamento, aquicultura, tanque rede)",
+            "OpB": "Beneficiamento (frigorifico, filetagem, congelamento, fabricação de ração)"
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID":"CF.1.4.1",
+            "dependencyValue":"Sim"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) (camarada)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mestre(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Catador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Aquicultor(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de barco"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Dono(a) de barco e pescador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Gelador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Marisqueiro(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Descascador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Filetador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Cozinheiro(a) de barco de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) de canoa"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "07 Bloco Capital Social e Laços Fracos": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ27",
+        "behavior": "",
+        "title": "07 Bloco Capital Social e Laços Fracos"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ17",
+        "behavior": "",
+        "title": "Eu vou citar algumas instituições associativas e gostaria de saber se elas existem? Se o(a) Sr.(Sra.) ou algum de seus familiares participaram de alguma delas? Quando aconteceu a última reunião? Participou dessa reunião? Se não participou, porque não participou? E com que frequência o(a) Sr.(Sra.) participou das reuniões?"
+      },
+      {
+        "type": "Table",
+        "id": "CSLF.1.1",
+        "behavior": "",
+        "title": "Colônia de Pesca (Capatazia)",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.1.1",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) sabe da existência da Colônia de Pesca?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.1.2",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) participa da Colônia de Pesca?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.1.1",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.1.3",
+            "behavior": "",
+            "title": "Quando aconteceu a última reunião da Colônia de Pesca que o(a) Sr.(Sra.) ficou sabendo?",
+            "OpA": "Neste mês",
+            "OpB": "No mês passado",
+            "OpC": "Há mais de dois meses",
+            "OpD": "Não fiquei sabendo de nenhuma reunião",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.1.2",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.1.4",
+            "behavior": "",
+            "title": "Com que frequência o(a) Sr.(Sra.) participa das reuniões da Colônia de Pesca?",
+            "OpA": "Vou a todas as reuniões",
+            "OpB": "Vou a quase todas as reuniões",
+            "OpC": "Não fui a quase nenhuma reunião",
+            "OpD": "Não fui em nenhuma reunião",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.1.2",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.1.5",
+            "behavior": "",
+            "title": "Por que o(a) Sr.(Sra.) não participa da Colônia de Pesca?",
+            "OpA": "Não tenho tempo",
+            "OpB": "Divergência com os líderes das organizações",
+            "OpC": "Não acredito nessas instituições",
+            "OpD": "Falta de interesse",
+            "OpE": "Nunca fui convidado",
+            "OpOther": "Outros. Especifique",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.1.2",
+                "dependencyValue": "Não"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "CSLF.1.2",
+        "behavior": "",
+        "title": "Associação de Pescadores",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.2.1",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) sabe da existência da Associação de Pescadores?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.2.2",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) participa da Associação de Pescadores?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.2.1",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.2.3",
+            "behavior": "",
+            "title": "Quando aconteceu a última reunião da Associação de Pescadores que o(a) Sr.(Sra.) ficou sabendo?",
+            "OpA": "Neste mês",
+            "OpB": "No mês passado",
+            "OpC": "Há mais de dois meses",
+            "OpD": "Não fiquei sabendo de nenhuma reunião",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.2.2",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.2.4",
+            "behavior": "",
+            "title": "Com que frequência o(a) Sr.(Sra.) participa das reuniões da Associação de Pescadores?",
+            "OpA": "Vou a todas as reuniões",
+            "OpB": "Vou a quase todas as reuniões",
+            "OpC": "Não fui a quase nenhuma reunião",
+            "OpD": "Não fui em nenhuma reunião",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.2.2",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CSLF.1.2.5",
+            "behavior": "",
+            "title": "Por que o(a) Sr.(Sra.) não participa da Associação de Pescadores?",
+            "OpA": "Não tenho tempo",
+            "OpB": "Divergência com os líderes das organizações",
+            "OpC": "Não acredito nessas instituições",
+            "OpD": "Falta de interesse",
+            "OpE": "Nunca fui convidado",
+            "OpOther": "Outros. Especifique",
+            "dependencies": [
+              {
+                "dependencyID": "CSLF.1.2.2",
+                "dependencyValue": "Não"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "08 Bloco Gênero": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ28",
+        "behavior": "",
+        "title": "08 Bloco Gênero"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "T.0",
+        "behavior": "Não Perguntar",
+        "title": "Responder o Bloco Gênero agora?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "notShowENES": true
+      },
+
+      {
+        "type": "RowQuestion",
+        "id": "G.1",
+        "title": "Parte 1",
+        "questions": [
+          {
+            "type": "MultipleChoiceQuestion",
+            "id": "G.1.1",
+            "title":"Em relação à organização das tarefas de sua casa, quais dos membros de sua família contribuem para:",
+            "OpA": "Cozinhar",
+            "OpB": "Cuidado com as crianças",
+            "OpC": "Cuidado com os idosos",
+            "OpD": "Cuidado com os doentes",
+            "OpE": "Limpeza do domicílio (varrer, lavar banheiros, lavar roupas)",
+            "OpF": "Pequenos reparos (elétricos, hidráulicos, construção)"
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "T.0",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+
+      {
+        "type": "RowQuestion",
+        "id": "Genero2",
+        "title": "Parte 2",
+        "questions": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "G.2",
+            "behavior": "ESPONTÂNEA",
+            "title": "Em sua casa, quem é o principal responsável pelo sustento da sua família?",
+            "OpA": "A senhora",
+            "OpB": "Seu(sua) esposo(a)",
+            "OpC": "Meu(minha) esposo(a) e eu somos igualmente responsáveis",
+            "OpD": "Outra pessoa"
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "T.0",
+            "dependencyValue": "Sim"
+          },
+          {
+            "dependencyID": "CF.1.3",
+            "dependencyValue": "Feminino"
+          },
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+
+      {
+        "type": "RowQuestion",
+        "id": "Genero3",
+        "title": "Parte 3",
+        "questions": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "G.6",
+            "behavior": "",
+            "title": "A senhora participa de alguma instituição associativa, como, por exemplo, associações de bairro, colônia etc?",
+            "OpA": "Sim",
+            "OpB": "Não"
+          },
+          {
+            "type": "MultipleChoiceQuestion",
+            "id": "G.7",
+            "behavior": "",
+            "title": "Por favor, me diga de qual instituição associativa a senhora participa, pode ser mais de uma.",
+            "OpA": "Colônia de Pescadores",
+            "OpB": "Associação de Pescadores",
+            "OpC": "Associação de Moradores",
+            "OpD": "Associação de Pais e Alunos",
+            "OpE": "Sindicato de trabalhadores",
+            "OpF": "Cooperativa",
+            "OpG": "Partidos Políticos",
+            "OpH": "Associação de Marisqueiras/Catadoras",
+            "dependencies": [
+              {
+                "dependencyID": "G.6",
+                "dependencyValue": "Sim"
+              }
+            ]
+          },
+          {
+            "type": "MultipleChoiceQuestion",
+            "id": "G.10",
+            "behavior": "Múltipla",
+            "title": "Em sua opinião, o que é necessário ser feito para melhorar a vida da mulher na atividade pesqueira?",
+            "OpA": "Melhoria na infraestrutura do local de trabalho",
+            "OpB": "Investimento em creches e escolas",
+            "OpC": "Garantia de um mínimo de PCAPS para as mulheres envolvidas na atividade da pesca",
+            "OpD": "Acesso a Políticas Públicas relacionadas à pesca (PRONAF, Seguro Defeso, Regularização da Documentação)",
+            "OpE": "Reconhecimento/Valorização da atividade de pescadoras/Marisqueiras",
+            "OpF": "Distribuição de equipamentos para proteção (filtro solar, luvas, botas, etc).",
+            "OpG": "Políticas de Saúde"
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": [
+          {
+            "dependencyID": "T.0",
+            "dependencyValue": "Sim"
+          },
+          {
+            "dependencyID": "CF.1.3",
+            "dependencyValue": "Feminino"
+          },
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) (camarada)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mestre(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Catador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Aquicultor(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de barco"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Dono(a) de barco e pescador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Gelador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Marisqueiro(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Descascador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Filetador(a)"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Cozinheiro(a) de barco de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) de canoa"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+          },
+          {
+            "dependencyID": "CF.11",
+            "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "09 Módulo de Caracterização da Educação Ambiental na Bacia de Campos": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ34",
+        "behavior": "",
+        "title": "09 Módulo de Caracterização da Educação Ambiental na Bacia de Campos"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ32",
+        "behavior": "",
+        "title": "As comunidades de pescadores artesanais são muito impactadas pela produção de petróleo e gás no município, por isso, as empresas que exploram esses recursos são obrigadas a desenvolver projetos de mitigação/compensação (minimização dos prejuízos) do impacto ambiental por elas produzido, ou seja, procuram diminuir os impactos ou prejuízos ambientais produzidos por elas. Diante disso, gostaríamos agora de falar sobre o seu conhecimento acerca dos projetos aqui desenvolvidos a fim de saber se o(a) Sr.(Sra.) já participou de algum desses projetos de educação ambiental. E qual é a sua avaliação sobre eles."
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "EA.1",
+        "behavior": "",
+        "title": "O Sr (Sra.) já participou de alguma atividade ligada a um projeto de educação ambiental, tais como oficinas, peças de teatro, devolutivas ou reuniões com a comunidade para discutir questões relacionadas à pesca, que tenha sido realizado nos últimos 5 anos em sua comunidade?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ33",
+        "behavior": "",
+        "title": "EA.2 - Nós Vamos listar sete projetos de educação ambiental, e gostaríamos que o(a) Sr.(Sra.) falasse de qual projeto participou. Pode ser mais de um. Dizendo como ficou sabendo, e se concluiu a sua participação no projeto.",
+        "dependencies": [
+          {
+            "dependencyID": "EA.1",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "EA.2.1",
+        "behavior": "",
+        "title": "Projeto Territórios do Petróleo",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.1.1",
+            "behavior": "",
+            "title": "Como ficou sabendo?",
+            "OpA": "Não fiquei sabendo",
+            "OpB": "Por comentários na rua",
+            "OpC": "Participei de uma reunião informativa",
+            "OpD": "Por meio de folheto com informações",
+            "OpE": "Um familiar meu participou do projeto",
+            "OpF": "Pela mídia (rádio, tv, carro de som)",
+            "OpG": "Recebi a visita dos membros da equipe",
+            "OpOther": "Outros. Especifique:"
+          },
+          {
+            "type": "SpinnerChoiceQuestion",
+            "id": "EA.2.1.2",
+            "behavior": "",
+            "title": "Como você participou?",
+            "OpA": "Não participei",
+            "OpB": "Integrei o projeto",
+            "OpC": "Participei de uma reunião informativa",
+            "OpD": "Fui a algumas reuniões",
+            "OpE": "Fiz parte da coordenação/gestão do projeto",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Por comentários na rua"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Por meio de folheto com informações"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Um familiar meu participou do projeto"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Pela mídia (rádio, tv, carro de som)"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "Recebi a visita dos membros da equipe"
+              },
+              {
+                "dependencyID": "EA.2.1.1",
+                "dependencyValue": "OpOther"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.1.3",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) participou desse projeto até seu final?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Integrei o projeto"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Fui a algumas reuniões"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Fiz parte da coordenação/gestão do projeto"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.1.4",
+            "behavior": "",
+            "title": "Por que não concluiu?",
+            "OpA": "Perdeu o interesse",
+            "OpB": "Por conflitos com outros integrantes",
+            "OpC": "Por falta de condições financeiras",
+            "OpD": "Devido o horário do projeto",
+            "OpE": "Não gostou da equipe",
+            "OpF": "Foi impedido por questões particulares",
+            "OpG": "Não viu utilidade",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.1.3",
+                "dependencyValue": "Não"
+              }
+            ]
+          },
+          {
+            "type": "SpinnerChoiceQuestion",
+            "id": "EA.2.1.5",
+            "behavior": "",
+            "title": "Por favor, avalie esse projeto em uma escala de 0 a 10, onde 0 é muito ruim e 10 é muito bom.",
+            "OpA": "0",
+            "OpB": "1",
+            "OpC": "2",
+            "OpD": "3",
+            "OpE": "4",
+            "OpF": "5",
+            "OpG": "6",
+            "OpH": "7",
+            "OpI": "8",
+            "OpJ": "9",
+            "OpK": "10",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Integrei o projeto"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Fui a algumas reuniões"
+              },
+              {
+                "dependencyID": "EA.2.1.2",
+                "dependencyValue": "Fiz parte da coordenação/gestão do projeto"
+              }
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "EA.1",
+            "dependencyValue": "Sim"
+          }
+        ]
+      },
+      {
+        "type": "Table",
+        "id": "EA.2.2",
+        "behavior": "",
+        "title": "Projeto NEA",
+        "table": [
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.2.1",
+            "behavior": "",
+            "title": "Como ficou sabendo?",
+            "OpA": "Não fiquei sabendo",
+            "OpB": "Por comentários na rua",
+            "OpC": "Participei de uma reunião informativa",
+            "OpD": "Por meio de folheto com informações",
+            "OpE": "Um familiar meu participou do projeto",
+            "OpF": "Pela mídia (rádio, tv, carro de som)",
+            "OpG": "Recebi a visita dos membros da equipe",
+            "OpOther": "Outros. Especifique:"
+          },
+          {
+            "type": "SpinnerChoiceQuestion",
+            "id": "EA.2.2.2",
+            "behavior": "",
+            "title": "Como você participou?",
+            "OpA": "Não participei",
+            "OpB": "Integrei o projeto",
+            "OpC": "Participei de uma reunião informativa",
+            "OpD": "Fui a algumas reuniões",
+            "OpE": "Fiz parte da coordenação/gestão do projeto",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Por comentários na rua"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Por meio de folheto com informações"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Um familiar meu participou do projeto"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Pela mídia (rádio, tv, carro de som)"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "Recebi a visita dos membros da equipe"
+              },
+              {
+                "dependencyID": "EA.2.2.1",
+                "dependencyValue": "OpOther"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.2.3",
+            "behavior": "",
+            "title": "O(A) Sr.(Sra.) participou desse projeto até seu final?",
+            "OpA": "Sim",
+            "OpB": "Não",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Integrei o projeto"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Fui a algumas reuniões"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Fiz parte da coordenação/gestão do projeto"
+              }
+            ]
+          },
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "EA.2.2.4",
+            "behavior": "",
+            "title": "Por que não concluiu?",
+            "OpA": "Perdeu o interesse",
+            "OpB": "Por conflitos com outros integrantes",
+            "OpC": "Por falta de condições financeiras",
+            "OpD": "Devido o horário do projeto",
+            "OpE": "Não gostou da equipe",
+            "OpF": "Foi impedido por questões particulares",
+            "OpG": "Não viu utilidade",
+            "OpOther": "Outros. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.2.3",
+                "dependencyValue": "Não"
+              }
+            ]
+          },
+          {
+            "type": "SpinnerChoiceQuestion",
+            "id": "EA.2.2.5",
+            "behavior": "",
+            "title": "Por favor, avalie esse projeto em uma escala de 0 a 10, onde 0 é muito ruim e 10 é muito bom.",
+            "OpA": "0",
+            "OpB": "1",
+            "OpC": "2",
+            "OpD": "3",
+            "OpE": "4",
+            "OpF": "5",
+            "OpG": "6",
+            "OpH": "7",
+            "OpI": "8",
+            "OpJ": "9",
+            "OpK": "10",
+            "dependencies": [
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Integrei o projeto"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Participei de uma reunião informativa"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Fui a algumas reuniões"
+              },
+              {
+                "dependencyID": "EA.2.2.2",
+                "dependencyValue": "Fiz parte da coordenação/gestão do projeto"
+              }
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "dependencyID": "EA.1",
+            "dependencyValue": "Sim"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "10 Inquérito alimentar para pescadores": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ35A",
+        "behavior": "",
+        "title": "10 Inquérito alimentar para pescadores"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IAP.1",
+        "behavior": "",
+        "title": "Nos últimos três meses, os moradores deste domicílio tiveram a preocupação de que a comida acabasse antes que tivessem dinheiro para comprar mais comida?",
+        "OpA": "Sim",
+        "OpB": "Não"
+      },
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ36",
+        "behavior": "",
+        "title": "Aplicar as perguntas abaixo somente em famílias que tenham integrantes menores de 18 anos.",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IAP.9",
+        "behavior": "",
+        "title": "Nos últimos três meses, os moradores com menos de 18 anos de idade, não puderam ter uma alimentação saudável e variada, porque não havia dinheiro para comparar comida?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "dependencies": [
+          {
+            "dependencyID": "CF.1.4.1",
+            "dependencyValue": "true"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "11 Bloco Mala Direta": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ37",
+        "behavior": "",
+        "title": "11 Módulo de Mala Direta"
+      },
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "MD.1",
+        "behavior": "",
+        "title": "O(A) Sr.(Sra.) deseja receber informações e notícias sobre o projeto PESCARTE?",
+        "OpA": "Sim",
+        "OpB": "Não",
+        "notShowENES": true
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.1",
+        "behavior": "",
+        "title": "Endereço completo (com CEP):",
+        "notShowENES": true,
+        "reference": "IS.3"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.2",
+        "behavior": "",
+        "title": "Telefone:",
+        "notShowENES": true,
+        "reference": "IS.4.1"
+      },
+      {
+        "type": "EditQuestion",
+        "id": "MD.2.3",
+        "behavior": "",
+        "title": "Email:",
+        "notShowENES": true
+      }
+    ]
+  }
+]

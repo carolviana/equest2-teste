@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="blue">#277DA1</color>
+    <color name="grey">#b1b1b1</color>
+
+    <color name="darkgrey">#656565</color>
+
+    <color name="tx_orange">#C66800</color>
+    <color name="light_blue">#bdd2e1</color>
+    <color name="orange">#F89629</color>
+    <color name="ic_orange">#F89629</color>
+    <color name="lighter_blue">#d2e2ec</color>
+    <color name="dark_blue">#006696</color>
+    <color name="light_orange">#ffd09b</color>
+
+</resources>

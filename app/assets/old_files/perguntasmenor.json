@@ -1,0 +1,380 @@
+[
+  {
+    "01 Bloco Perguntas Primitivas": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ01",
+        "behavior": "(ATENÇÃO!!) Explicar para o entrevistado: Todos esses dados serão usados estatisticamente e os nomes não serão divulgados.",
+        "title": "01 Bloco Identificação Socioeconômica / Características Demográficas",
+        "dependencies": []
+      },
+
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Município do estudo",
+        "OpA": "Campos dos Goytacazes",
+        "OpB": "Macaé",
+        "OpC": "São Francisco do Itabapoana",
+        "OpD": "São João da Barra",
+        "OpE": "Arraial do Cabo",
+        "OpF": "Cabo Frio",
+        "OpG": "Quissamã",
+        "OpH": "Armação de Búzios",
+        "OpI": "Carapebus",
+        "OpJ": "Rio das Ostras",
+        "notShowENES": false,
+        "dependencies": []
+      },
+
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.1.1",
+        "behavior": "Preenchido pelo entrevistador",
+        "title": "Localidade/comunidade do estudo",
+        "OpA": "Farol De São Tomé",
+        "OpB": "Terminal Pesqueiro",
+        "OpC": "Coroa Grande",
+        "OpD": "Parque Dos Prazeres",
+        "OpE": "Lagoa Do Vigário",
+        "OpF": "Ponta Grossa Dos Fidalgos",
+        "OpG": "Lagoa do Campelo",
+        "OpH": "Lagoa de Cima",
+        "OpI": "Pernambuca",
+        "OpJ": "Barra Seca",
+        "OpK": "Imbé",
+        "OpL": "Carvão",
+        "OpM": "Canal das Flechas",
+        "OpN": "Matadouro",
+        "OpO": "Tocos",
+        "OpP": "Mussurepe",
+        "OpQ": "Parque Aldeia",
+        "OpR": "Santa Ana",
+        "OpOther": "Outros.",
+        "dependencies": [
+          {
+            "dependencyID": "IS.1",
+            "dependencyValue": "Campos dos Goytacazes"
+          }
+        ]
+      },
+
+      {
+        "type": "EditQuestion",
+        "id": "IS2",
+        "behavior": "",
+        "title": "Qual o seu nome? [e apelido se tiver; seguir o formato: (Nome/Apelido) ]",
+        "notShowENES": false,
+        "dependencies": []
+      },
+
+      {
+        "type": "OnlyOneChoiceQuestion",
+        "id": "IS.9",
+        "behavior": "",
+        "title": "O(A) senhor(a) tem filho(s)?",
+        "OpA": "",
+        "OpB": "Não",
+        "OpOther": "Sim. Quantos?",
+        "dependencies": []
+      },
+
+      {
+        "type": "Table",
+        "id": "IS.15",
+        "behavior": "",
+        "title": "A quanto tempo o(a) Sr.(Sra.) reside, sem interrupção, nesta localidade?",
+        "table": [
+          {
+            "type": "EditQuestion",
+            "id": "IS.15.1",
+            "behavior": "",
+            "title": "Anos (usar dois dígitos exemplo: 01 -> um ano):",
+            "allowOnlyNumbers": true,
+            "dependencies": []
+          },
+          {
+            "type": "EditQuestion",
+            "id": "IS.15.2",
+            "behavior": "",
+            "title": "Meses (usar dois dígitos exemplo: 01 -> um mês):",
+            "allowOnlyNumbers": true,
+            "dependencies": []
+          }
+        ],
+        "dependencies": []
+      },
+
+      {
+        "type": "SpinnerChoiceQuestion",
+        "id": "CF.1.3",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "Qual o sexo de [ ]?",
+        "OpA": "Masculino",
+        "OpB": "Feminino",
+        "notShowENES": false,
+        "dependencies": []
+      },
+
+      {
+        "type": "MultipleChoiceQuestion",
+        "id": "CF.15",
+        "behavior": "Complete [ ] com o nome de referência",
+        "title": "[ ] possui algum benefício social? Qual?",
+        "OpA": "Bolsa família",
+        "OpB": "Brasil Carinhoso",
+        "OpC": "PETI",
+        "OpD": "BPC",
+        "OpE": "Renda Melhor",
+        "OpF": "Renda Melhor Jovem",
+        "OpG": "Renda mínima",
+        "OpH": "Cheque alimentação",
+        "OpI": "Vale Cidadão",
+        "OpJ": "Guarda Mirim",
+        "OpK": "Cartão social da dignidade (100 reais)",
+        "OpL": "Cartão Cidadão - SJB",
+        "OpM": "Nenhum",
+        "OpOther": "Outros:",
+        "dependencies": []
+      }
+    ]
+  },
+
+  {
+    "02 Bloco RowQuestion": [
+      {
+        "type": "NotAnswerableQuestion",
+        "id": "NAQ21",
+        "behavior": "(ATENÇÃO!!) Explicar para o entrevistado: Todos esses dados serão usados estatisticamente e os nomes não serão divulgados.",
+        "title": "02 Bloco para teste de replicação",
+        "dependencies": []
+      },
+
+      {
+        "type": "EditQuestion",
+        "id": "CF.1",
+        "behavior": "",
+        "title": "Quantas pessoas moram em sua casa, incluindo o(a) Sr.(Sra.)?",
+        "allowOnlyNumbers": true,
+        "dependencies": []
+      },
+
+      {
+        "type": "PersonCreatorQuestion",
+        "id": "mb1",
+        "behavior": "",
+        "title": "Nome Completo:",
+        "notShowENES": false,
+        "replication": "CF.1",
+        "dependencies": []
+      },
+
+      {
+        "type": "RowQuestion",
+        "id": "CF",
+        "behavior": "Breve explicação de como proceder",
+        "title": "Membros/Descrição",
+        "questions": [
+          {
+            "type": "SpinnerChoiceQuestion",
+            "id": "CF.10",
+            "behavior": "Complete  [ ] com o nome de referência",
+            "title": "Qual a situação de [ ] no mercado de trabalho? (Ler as opções)",
+            "OpA": "Empregado com carteira assinada",
+            "OpB": "Empregado sem carteira assinada (recebe salário)",
+            "OpC": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)",
+            "OpD": "Desempregado",
+            "OpE": "Bolsista",
+            "OpF": "Aposentado/pensionista",
+            "OpG": "Aposentado como pescador (inativo)",
+            "OpH": "Aposentado como pescador (em atividade)",
+            "OpI": "Desocupado",
+            "OpJ": "Estagiário",
+            "OpK": "Funcionário público",
+            "OpL": "Ajudante familiar sem remuneração",
+            "OpM": "Empreendedor (dono de barco, atravessador)",
+            "OpN": "Adolescente aprendiz (menor aprendiz)",
+            "dependencies": []
+          },
+
+          {
+            "type": "OnlyOneChoiceQuestion",
+            "id": "CF.11",
+            "behavior": "Complete [ ] com o nome de referência",
+            "title": "Qual a ocupação principal ou a profissão de [ ]?",
+            "OpA": "Pescador(a) (camarada)",
+            "OpB": "Mestre(a)",
+            "OpC": "Catador(a)",
+            "OpD": "Aquicultor(a)",
+            "OpE": "Mantenedor(a) de barco",
+            "OpF": "Dono(a) de barco que não pesca",
+            "OpG": "Dono(a) de barco e pescador(a)",
+            "OpH": "Gelador(a)",
+            "OpI": "Marisqueiro(a)",
+            "OpJ": "Descascador(a)",
+            "OpK": "Filetador(a)",
+            "OpL": "Cozinheiro(a) de barco de pesca",
+            "OpM": "Pescador(a) de canoa",
+            "OpN": "Atravessador(a)",
+            "OpO": "Mantenedor(a) de petrechos de pesca",
+            "OpP": "Pescador(a) afastado(a) temporariamente da atividade",
+            "OpOther": "Outro. Especifique:",
+            "dependencies": [
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Empregado com carteira assinada"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Empregado sem carteira assinada (recebe salário)"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Autônomo (parceiro, camarada, sociedade, produção, dono de canoa)"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Desempregado"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Bolsista"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Aposentado/pensionista"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Aposentado como pescador (inativo)"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Aposentado como pescador (em atividade)"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Estagiário"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Funcionário público"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Ajudante familiar sem remuneração"
+              },
+              {
+                "dependencyID": "CF.10",
+                "dependencyValue": "Empreendedor (dono de barco, atravessador)"
+              }
+            ]
+          },
+
+          {
+            "type": "EditQuestion",
+            "id": "CF.12",
+            "behavior": "Complete [ ] com o nome de referência",
+            "title": "Qual o rendimento mensal de [ ] nesta ocupação principal? (referência: salário mínimo = R$788) [Caso a ocupação seja dono de barco e pescador, a renda indicada deve ser como pescador.]",
+            "allowOnlyNumbers": true,
+            "dependencies": [
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Pescador(a) (camarada)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Mestre(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Catador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Aquicultor(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Mantenedor(a) de barco"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Dono(a) de barco que não pesca"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Dono(a) de barco e pescador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Gelador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Marisqueiro(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Descascador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Filetador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Cozinheiro(a) de barco de pesca"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Pescador(a) de canoa"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Atravessador(a)"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Mantenedor(a) de petrechos de pesca"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "Pescador(a) afastado(a) temporariamente da atividade"
+              },
+              {
+                "dependencyID": "CF.11",
+                "dependencyValue": "OpOther"
+              }
+            ]
+          },
+
+          {
+            "type": "MultipleChoiceQuestion",
+            "id": "CF.15",
+            "behavior": "Complete [ ] com o nome de referência",
+            "title": "[ ] possui algum benefício social? Qual?",
+            "OpA": "Bolsa família",
+            "OpB": "Brasil Carinhoso",
+            "OpC": "PETI",
+            "OpD": "BPC",
+            "OpE": "Renda Melhor",
+            "OpF": "Renda Melhor Jovem",
+            "OpG": "Renda mínima",
+            "OpH": "Cheque alimentação",
+            "OpI": "Vale Cidadão",
+            "OpJ": "Guarda Mirim",
+            "OpK": "Cartão social da dignidade (100 reais)",
+            "OpL": "Cartão Cidadão - SJB",
+            "OpM": "Nenhum",
+            "OpOther": "Outros:",
+            "dependencies": []
+          }
+        ],
+        "replication": "CF.1",
+        "dependencies": []
+      }
+    ]
+  }
+]

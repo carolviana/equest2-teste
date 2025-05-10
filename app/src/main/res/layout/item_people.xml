@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/line">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/tx_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_round_white_orangeborder"
+            android:text="Nome"
+            android:textColor="@color/ic_orange"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingLeft="25dp"
+            android:paddingTop="4dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="4dp"
+            android:layout_marginRight="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bt_delete"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/bt_delete"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:background="@drawable/shape_circle_white_orangeborder"
+            android:text="X"
+            android:textColor="@color/ic_orange"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/bt_add"
+            app:layout_constraintStart_toEndOf="@id/tx_name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/bt_add"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:background="@drawable/shape_circle_white_orangeborder"
+            android:text="+"
+            android:textColor="@color/ic_orange"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/bt_delete"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
