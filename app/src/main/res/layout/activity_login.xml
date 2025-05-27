@@ -16,10 +16,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2">
 
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="100dp"
-            android:src="@drawable/logo_pescarte_white" />
+<!--        <ImageView-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/logo_pescarte_white" />-->
 
         <ImageView
             android:layout_width="280dp"
