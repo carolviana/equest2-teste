@@ -49,7 +49,7 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
     private LocationListener locationListener;
     private GoogleMap mMap;
 
-    private ImageView locationButton;
+    //private ImageView locationButton;
 
     private FusedLocationProviderClient fusedLocationClient;
 
@@ -114,18 +114,18 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
                 }
             });
 
-            locationButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
-                    LatLng lastPoint = new LatLng(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLatitude(),locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLongitude());
-                    mMap.clear();
-                    mMap.addMarker(new MarkerOptions().position(lastPoint));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lastPoint, 18));
-                    setAnswer(lastPoint);
-
-                }
-            });
+//            locationButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
+//                    LatLng lastPoint = new LatLng(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLatitude(),locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLongitude());
+//                    mMap.clear();
+//                    mMap.addMarker(new MarkerOptions().position(lastPoint));
+//                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lastPoint, 18));
+//                    setAnswer(lastPoint);
+//
+//                }
+//            });
         }
     };
 
@@ -194,7 +194,7 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
             }
         });
 
-        locationButton = rootView.findViewById(R.id.bt_map_location);
+        //locationButton = rootView.findViewById(R.id.bt_map_location);
 
         return rootView;
     }
