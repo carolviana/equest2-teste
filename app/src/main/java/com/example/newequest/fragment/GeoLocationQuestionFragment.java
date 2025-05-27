@@ -49,6 +49,8 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
     private LocationListener locationListener;
     private GoogleMap mMap;
 
+    private ImageView locationButton;
+
     private FusedLocationProviderClient fusedLocationClient;
 
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
@@ -108,6 +110,19 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
                     mMap.clear();
                     mMap.addMarker(new MarkerOptions().position(latLng));
                     setAnswer(latLng);
+                }
+            });
+
+            locationButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
+                    LatLng lastPoint = new LatLng(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLatitude(),locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER).getLongitude());
+                    mMap.clear();
+                    mMap.addMarker(new MarkerOptions().position(lastPoint));
+                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lastPoint, 18));
+                    setAnswer(lastPoint);
+
                 }
             });
         }
@@ -177,6 +192,8 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
                 mCallback.onPreviousButtonClick();
             }
         });
+
+        locationButton = rootView.findViewById(R.id.bt_map_location);
 
         return rootView;
     }

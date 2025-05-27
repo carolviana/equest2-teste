@@ -25,6 +25,8 @@ import com.example.newequest.database.AppDatabase;
 import com.example.newequest.model.Questionnaire;
 import com.example.newequest.model.QuestionnaireEntry;
 import com.example.newequest.model.Session;
+import com.example.newequest.model.User;
+import com.example.newequest.provider.RemoteUser;
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -35,9 +37,14 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 public class MainActivity extends AppCompatActivity {
     
-    public static final String FILE = "equest_final.json";
+    public static final String FILE = "quest_ComunidadeAgricola-CM.json";
 
     private TextView completeCountView;
     private TextView incompleteTextView;
@@ -45,6 +52,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
+
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try{
@@ -52,6 +65,33 @@ public class MainActivity extends AppCompatActivity {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        // Dentro do método onCreate() de uma Activity ou outro ponto de teste
+        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference("testConnection");
+
+        // Escreve um valor simples no banco
+        dbRef.setValue("Conexão bem-sucedida com Firebase!")
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        Log.d("FIREBASE_TEST", "Escrita no Firebase bem-sucedida.");
+                    } else {
+                        Log.e("FIREBASE_TEST", "Erro ao escrever no Firebase: " + task.getException());
+                    }
+                });
+
+        // Lê o valor de volta
+        dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                String value = snapshot.getValue(String.class);
+                Log.d("FIREBASE_TEST", "Valor lido do Firebase: " + value);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                Log.e("FIREBASE_TEST", "Erro ao ler do Firebase: " + error.getMessage());
+            }
+        });
 
 
         ImageView exitView = findViewById(R.id.exit);
@@ -227,6 +267,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         updateQuestionnaireAmount();
+//        RemoteUser.createUser(new User("Carolina Viana", "carolina.sov@gmail.com", 0, "123456", "Campos dos Goytacazes", true), getApplicationContext());
     }
 
     private void overrideFonts(final Context context, final View v, Typeface font) {

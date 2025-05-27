@@ -1,8 +1,10 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services' // <-- adicione aqui também!
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
     id 'com.google.firebase.crashlytics'
 }
+
 
 android {
     compileSdk 33
@@ -56,5 +58,5 @@ dependencies {
 
 }
 
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'
 

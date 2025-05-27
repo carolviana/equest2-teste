@@ -410,7 +410,7 @@ public class Questionnaire implements Parcelable {
                             } catch (Exception e) {
                                 e.printStackTrace();
                             }
-
+                        Log.d("carol", "Chamando recursivamente getNextQuestionWithLastQuestion para: " + (lastQuestion != null ? lastQuestion.getId() : "null"));
                         return getNextQuestionWithLastQuestion(nextPossibleQuestion, respondent);
                     }
                 }
@@ -934,7 +934,7 @@ public class Questionnaire implements Parcelable {
 
         for (Block block : blocks) {
             for (Question question : block.getQuestions()) {
-                if(!question.getType().equals(NOT_ANSWERABLE_QUESTION_TYPE)){
+                if(question instanceof AnswerableQuestion){
                     Answer answer;
                     if(question.getType().equals(MULTIPLE_QUESTION_TYPE) || question.getType().equals(GEO_LOCATION_QUESTION_TYPE)){
                         answer = new Answer(question.getId(),

@@ -838,6 +838,7 @@ public class AnswerActivity extends AppCompatActivity implements QuestionFragmen
 
     private void saveQuestionnaireAndExit() {
         questionnaire.finishTimer();
+//        DatabaseUtils.testRoomDatabase(questionnaire, AnswerActivity.this);
         DatabaseUtils.insertQuestionnaire(AnswerActivity.this, questionnaire);
         Toast.makeText(AnswerActivity.this, "Questionário salvo", Toast.LENGTH_SHORT).show();
         questionnaireSended = true;

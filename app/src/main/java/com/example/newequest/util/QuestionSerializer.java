@@ -44,50 +44,82 @@ public class QuestionSerializer implements JsonSerializer<Question> {
         return parser.parse(jsonString).getAsJsonObject();
     }
 
+//    private String convertFromQuestionToString(Question question) {
+//        Gson gson = new Gson();
+//        GsonBuilder gsonBuilder = new GsonBuilder();
+//        gsonBuilder.registerTypeAdapter(Question.class, new QuestionSerializer());
+//        Gson alternateGson = gsonBuilder.create();
+//        switch (question.getType()) {
+//            case NOT_ANSWERABLE_TYPE:
+//                NotAnswerableQuestion notAnswerableQuestion = ((NotAnswerableQuestion) question);
+//                return gson.toJson(notAnswerableQuestion, NotAnswerableQuestion.class);
+//            case EDIT_TYPE:
+//                EditQuestion editQuestion = (EditQuestion) question;
+//                return gson.toJson(editQuestion, EditQuestion.class);
+//            case MULTIPLE_CHOICE_TYPE:
+//                MultipleChoiceQuestion multipleChoiceQuestion = (MultipleChoiceQuestion) question;
+//                return gson.toJson(multipleChoiceQuestion, MultipleChoiceQuestion.class);
+//            case ONLY_ONE_CHOICE_TYPE:
+//                OnlyOneChoiceQuestion onlyOneChoiceQuestion = (OnlyOneChoiceQuestion) question;
+//                return gson.toJson(onlyOneChoiceQuestion, OnlyOneChoiceQuestion.class);
+//            case PERSON_CREATOR_TYPE:
+//                PersonCreatorQuestion personCreatorQuestion = (PersonCreatorQuestion) question;
+//                return gson.toJson(personCreatorQuestion, PersonCreatorQuestion.class);
+//            case SPINNER_CHOICE_TYPE:
+//                SpinnerChoiceQuestion spinnerChoiceQuestion = (SpinnerChoiceQuestion) question;
+//                return gson.toJson(spinnerChoiceQuestion, SpinnerChoiceQuestion.class);
+//            case ROW_TYPE:
+//                RowQuestion rowQuestion = (RowQuestion) question;
+//                return alternateGson.toJson(rowQuestion, RowQuestion.class);
+//            case TABLE_TYPE:
+//                Table table = (Table) question;
+//                return alternateGson.toJson(table, Table.class);
+//            case GEO_LOCATION_TYPE:
+//                GeoLocationQuestion geoLocationQuestion = (GeoLocationQuestion) question;
+//                return alternateGson.toJson(geoLocationQuestion, GeoLocationQuestion.class);
+//            case LIST_TYPE:
+//                ListQuestion listQuestion = (ListQuestion) question;
+//                return alternateGson.toJson(listQuestion, ListQuestion.class);
+//            case MORE_THAN_TYPE:
+//                MoreThanQuestion moreThanQuestion = (MoreThanQuestion) question;
+//                return alternateGson.toJson(moreThanQuestion, MoreThanQuestion.class);
+//            case CITY_CHECK_TYPE:
+//                CityCheckQuestion cityCheckQuestion = (CityCheckQuestion) question;
+//                return alternateGson.toJson(cityCheckQuestion, CityCheckQuestion.class);
+//            default:
+//                return gson.toJson(question, AnswerableQuestion.class);
+//        }
+//    }
     private String convertFromQuestionToString(Question question) {
         Gson gson = new Gson();
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        gsonBuilder.registerTypeAdapter(Question.class, new QuestionSerializer());
-        Gson alternateGson = gsonBuilder.create();
         switch (question.getType()) {
             case NOT_ANSWERABLE_TYPE:
-                NotAnswerableQuestion notAnswerableQuestion = ((NotAnswerableQuestion) question);
-                return gson.toJson(notAnswerableQuestion, NotAnswerableQuestion.class);
+                return gson.toJson((NotAnswerableQuestion) question);
             case EDIT_TYPE:
-                EditQuestion editQuestion = (EditQuestion) question;
-                return gson.toJson(editQuestion, EditQuestion.class);
+                return gson.toJson((EditQuestion) question);
             case MULTIPLE_CHOICE_TYPE:
-                MultipleChoiceQuestion multipleChoiceQuestion = (MultipleChoiceQuestion) question;
-                return gson.toJson(multipleChoiceQuestion, MultipleChoiceQuestion.class);
+                return gson.toJson((MultipleChoiceQuestion) question);
             case ONLY_ONE_CHOICE_TYPE:
-                OnlyOneChoiceQuestion onlyOneChoiceQuestion = (OnlyOneChoiceQuestion) question;
-                return gson.toJson(onlyOneChoiceQuestion, OnlyOneChoiceQuestion.class);
+                return gson.toJson((OnlyOneChoiceQuestion) question);
             case PERSON_CREATOR_TYPE:
-                PersonCreatorQuestion personCreatorQuestion = (PersonCreatorQuestion) question;
-                return gson.toJson(personCreatorQuestion, PersonCreatorQuestion.class);
+                return gson.toJson((PersonCreatorQuestion) question);
             case SPINNER_CHOICE_TYPE:
-                SpinnerChoiceQuestion spinnerChoiceQuestion = (SpinnerChoiceQuestion) question;
-                return gson.toJson(spinnerChoiceQuestion, SpinnerChoiceQuestion.class);
+                return gson.toJson((SpinnerChoiceQuestion) question);
             case ROW_TYPE:
-                RowQuestion rowQuestion = (RowQuestion) question;
-                return alternateGson.toJson(rowQuestion, RowQuestion.class);
+                return gson.toJson((RowQuestion) question);
             case TABLE_TYPE:
-                Table table = (Table) question;
-                return alternateGson.toJson(table, Table.class);
+                return gson.toJson((Table) question);
             case GEO_LOCATION_TYPE:
-                GeoLocationQuestion geoLocationQuestion = (GeoLocationQuestion) question;
-                return alternateGson.toJson(geoLocationQuestion, GeoLocationQuestion.class);
+                return gson.toJson((GeoLocationQuestion) question);
             case LIST_TYPE:
-                ListQuestion listQuestion = (ListQuestion) question;
-                return alternateGson.toJson(listQuestion, ListQuestion.class);
+                return gson.toJson((ListQuestion) question);
             case MORE_THAN_TYPE:
-                MoreThanQuestion moreThanQuestion = (MoreThanQuestion) question;
-                return alternateGson.toJson(moreThanQuestion, MoreThanQuestion.class);
+                return gson.toJson((MoreThanQuestion) question);
             case CITY_CHECK_TYPE:
-                CityCheckQuestion cityCheckQuestion = (CityCheckQuestion) question;
-                return alternateGson.toJson(cityCheckQuestion, CityCheckQuestion.class);
+                return gson.toJson((CityCheckQuestion) question);
             default:
-                return gson.toJson(question, AnswerableQuestion.class);
+                return gson.toJson(question, Question.class);
         }
     }
+
 }
