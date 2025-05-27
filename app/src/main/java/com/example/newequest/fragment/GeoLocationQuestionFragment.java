@@ -71,8 +71,9 @@ public class GeoLocationQuestionFragment extends QuestionFragment {
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(answer, 18));
                 setAnswer(answer);
             } else {
-                LatLng point = new LatLng(-22.158170, -41.527013);
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(point,8));
+//                LatLng point = new LatLng(-22.158170, -41.527013); //-21.491091, -41.618755
+                LatLng point = new LatLng(-21.491091, -41.618755); //,
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(point,14));
 
                 locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
 
