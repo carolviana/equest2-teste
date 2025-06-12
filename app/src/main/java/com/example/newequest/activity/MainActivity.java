@@ -53,11 +53,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
-
-
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         try{
@@ -66,32 +61,32 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        // Dentro do método onCreate() de uma Activity ou outro ponto de teste
-        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference("testConnection");
-
-        // Escreve um valor simples no banco
-        dbRef.setValue("Conexão bem-sucedida com Firebase!")
-                .addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        Log.d("FIREBASE_TEST", "Escrita no Firebase bem-sucedida.");
-                    } else {
-                        Log.e("FIREBASE_TEST", "Erro ao escrever no Firebase: " + task.getException());
-                    }
-                });
-
-        // Lê o valor de volta
-        dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                String value = snapshot.getValue(String.class);
-                Log.d("FIREBASE_TEST", "Valor lido do Firebase: " + value);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                Log.e("FIREBASE_TEST", "Erro ao ler do Firebase: " + error.getMessage());
-            }
-        });
+//        // teste Firebase
+//        DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference("testConnection");
+//
+//        // Escreve um valor simples no banco
+//        dbRef.setValue("Conexão bem-sucedida com Firebase!")
+//                .addOnCompleteListener(task -> {
+//                    if (task.isSuccessful()) {
+//                        Log.d("FIREBASE_TEST", "Escrita no Firebase bem-sucedida.");
+//                    } else {
+//                        Log.e("FIREBASE_TEST", "Erro ao escrever no Firebase: " + task.getException());
+//                    }
+//                });
+//
+//        // Lê o valor de volta
+//        dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot snapshot) {
+//                String value = snapshot.getValue(String.class);
+//                Log.d("FIREBASE_TEST", "Valor lido do Firebase: " + value);
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError error) {
+//                Log.e("FIREBASE_TEST", "Erro ao ler do Firebase: " + error.getMessage());
+//            }
+//        });
 
 
         ImageView exitView = findViewById(R.id.exit);

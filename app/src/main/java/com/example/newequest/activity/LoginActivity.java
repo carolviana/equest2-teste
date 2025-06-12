@@ -73,28 +73,26 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-//                enterButton.setEnabled(false);
-//                enterButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.shape_round_gray));
-//
-//                if(!emailView.getText().toString().equals("")){
-//                    if(!passwordView.getText().toString().equals("")){
-//                        Session.login(new User(emailView.getText().toString(),passwordView.getText().toString()), LoginActivity.this);
-//                    }else{
-//                        passwordView.requestFocus();
-//                        Toast.makeText(LoginActivity.this, "Digite a senha.", Toast.LENGTH_SHORT).show();
-//                    }
-//                }else{
-//                    emailView.requestFocus();
-//                    Toast.makeText(LoginActivity.this, "Digite o email.", Toast.LENGTH_SHORT).show();
-//                }
-//
-//                enterButton.setEnabled(true);
-//                enterButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.shape_round_orange));
+                enterButton.setEnabled(false);
+                enterButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.shape_round_gray));
+
+                if(!emailView.getText().toString().equals("")){
+                    if(!passwordView.getText().toString().equals("")){
+                        Session.login(new User(emailView.getText().toString(),passwordView.getText().toString()), LoginActivity.this);
+                    }else{
+                        passwordView.requestFocus();
+                        Toast.makeText(LoginActivity.this, "Digite a senha.", Toast.LENGTH_SHORT).show();
+                    }
+                }else{
+                    emailView.requestFocus();
+                    Toast.makeText(LoginActivity.this, "Digite o email.", Toast.LENGTH_SHORT).show();
+                }
+
+                enterButton.setEnabled(true);
+                enterButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.shape_round_orange));
 
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
-
-
 
             }
         });
