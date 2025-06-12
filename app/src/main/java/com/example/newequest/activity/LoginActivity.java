@@ -93,8 +93,8 @@ public class LoginActivity extends AppCompatActivity {
                 enterButton.setEnabled(true);
                 enterButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.shape_round_orange));
 
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+//                startActivity(intent);
 
             }
         });
