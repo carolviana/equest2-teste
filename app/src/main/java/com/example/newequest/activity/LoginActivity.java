@@ -32,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
 
         Log.i("carol", "iniciando aplicativo...");
 
+        //RemoteUser.createUser(new User("Cardoso Região D2", "cardosoregiao.d2@gmail.com", 0, "123456", "Campos dos Goytacazes", true), getApplicationContext());
+
         try {
             if (RemoteUser.isThereSomeUserLogged()) {
                 //TODO: verificar se é o melhor local para ficar
